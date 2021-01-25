@@ -4,7 +4,7 @@
 
 *Team Coco Channel
 
-Team members:
+* Team members:
 	* [Luciana Brancato](https://github.com/Luciana001)
 	* [Natascha Gritte](https://github.com/Dhaibuna)
 	* [Richard Denys](https://www.linkedin.com/in/richard-denys-b78960185)
