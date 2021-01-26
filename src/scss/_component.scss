@@ -1,0 +1,31 @@
+#menu {
+  z-index: 5;
+}
+
+.navbar-nav {
+  margin-left: 3rem;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+.nav-item {
+  margin-left: 0.6rem;
+  font-size: 10px;
+  font-weight: 300;
+}
+#carousel {
+  position: absolute;
+  top: 0px;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner .carousel-item .carousel-caption h2 {
+  font-size: 36px;
+}
