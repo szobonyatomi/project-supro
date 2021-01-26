@@ -1,0 +1,10 @@
+$colors: (
+  black: #222,
+  grey: #999,
+  orange: #f68773,
+  color banner top: #f2ede9,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
