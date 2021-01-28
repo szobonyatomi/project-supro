@@ -1,101 +1,48 @@
-#menu {
+/* navbar */
+
+.navbar {
   z-index: 5;
 }
-@media (min-width: map-get($grid-breakpoints, lg)) {
-  .navbar-inner {
-    background: transparent;
-  }
-}
-.navbar-inner {
-  @include media-breakpoint-up(lg) {
-    background-color: transparent;
-  }
-}
 
-.nav-item {
+.navbar-nav {
+  text-transform: capitalize;
   font-size: 10px;
   font-weight: 300;
+  margin-left: 3rem;
+}
+.navbar button {
+  border: none;
 }
 
-.navbar .menu_left .navbar-toggler {
-  display: block;
-}
-
-.navbar .menu_left .navbar-toggler .navbar-toggler-icon {
-  width: 1.4rem;
-}
-
-.menu_left {
-  display: inline-block;
-}
-
-.menu_left .account_link td {
-  padding: 0 10px;
-}
-.menu_left .account_link img {
-  width: 1.2rem;
-}
-
-.input-group {
-  width: 5rem;
-}
-.form-control {
-  margin: 6px 0 auto 3px;
-  color: #999;
-  width: auto;
-}
-.form-control::placeholder {
-  font-size: 10px;
-  font-weight: 300;
-  color: #999;
-}
-
-.input-group .form-control {
-  height: 0.8rem;
-}
-
-.input-group .input-group-append img {
-  margin-right: 15px;
-  font-size: 0.7rem;
-  width: 10px;
-  color: #999;
-  z-index: 10;
-}
-
-.input-group > .input-group-append > .btn {
-  padding: 0;
-}
-
-#carousel {
-  position: absolute;
-  top: 0px;
-}
-
-.carousel .carousel-indicators li {
+/* carousel */
+ul.carousel-indicators li,
+ul.carousel-indicators li.active {
   width: 10px;
   height: 10px;
   border-radius: 100%;
+  border: 1px solid white;
+  background: transparent;
 }
 
-.carousel .carousel-inner {
-  display: flex;
-  align-items: center;
-}
-.carousel .carousel-inner .carousel-caption {
-  bottom: 35%;
+ul.carousel-indicators li.active {
+  background: black;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
   font-size: 5rem;
-  font-weight: 700;
   letter-spacing: 0.2rem;
   line-height: 4.8rem;
 }
 
+body h2 {
+  font-weight: 700;
+}
+/* more_buttons */
+
 #more_button {
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
-  width: 100px;
+  width: 92px;
   letter-spacing: 0.6px;
   margin: 2rem auto 0;
 
@@ -103,16 +50,46 @@
     display: block;
     content: '';
     background: white;
-    height: 2px;
+    height: 1px;
     width: 100%;
   }
 }
-.hero {
-  display: flex;
-  align-content: center;
+
+#more_button_b {
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 92px;
+  letter-spacing: 0.6px;
+  margin: 2rem auto 0;
+
+  &::after {
+    display: block;
+    content: '';
+    background: black;
+    height: 1px;
+  }
 }
-.hero .social_block {
-  margin: 10rem 4rem;
+$btn-font-size: 10px;
+
+.btn-outline {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+}
+
+.btn-outline::after {
+  display: block;
+  content: '';
+  background: black;
+  height: 2px;
+}
+
+/* bottom_banner */
+
+#bottom_banner p {
+  color: grey;
+  font-size: 10px;
+  margin-bottom: 3px;
 }
 
 .social_block img {

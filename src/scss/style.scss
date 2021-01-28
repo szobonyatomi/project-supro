@@ -1,7 +1,14 @@
-$navbar-light-color: #222;
-@font-face {
-  font-family: 'Roboto';
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './about';
+@import './variables';
+@import './reset';
 @import './component';
+@import './shop';
+@import './product';
+@import './contact';
 @import '/Users/tomi/Codes/mycodes/project-supro/node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  font-family: $body-font;
+}

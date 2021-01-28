@@ -8,153 +8,251 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../src/css/style.css" id="" />
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <title>Supro</title>
   </head>
   <body>
-    <div class="container-fluid border-top-0 sticky-top px-0" id="menu">
+    <div
+      class="container-fluid border border-warning position-absolute"
+      id="menubar"
+    >
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-transparent px-3 justify-content-between"
+        class="navbar navbar-expand-lg border border-warning sticky-top navbar-light bg-transparent"
       >
-        <a class="navbar-brand col-1" href="#Home"
-          ><img src="assets/logo_supro.svg" alt="" width="60px" />
-        </a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo_supro.svg" alt="" />
+          </a>
 
-        <div class="collapse col-4 navbar-collapse text-center" id="navMenu">
-          <ul
-            class="navbar-nav justify-content-start text-capitalize"
-            style="font-size: 0.8rem"
-            data-bs-toggle="popover"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="#Home">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#./shop/shop.html">shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#./product/product.html">collection</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Pages">pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Blog">blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3"></div>
-        <div class="menu_left col-4 justify-content-end px-0" id="menu_left">
-          <table id="account_link" class="account_link">
-            <tr>
-              <td>
-                <form action="">
-                  <div
-                    class="bg-light d-none d-lg-block rounded rounded-pill"
-                    id="search_field"
-                  >
-                    <div class="input-group">
-                      <input
-                        type="search"
-                        placeholder="What're you searching for?"
-                        aria-describedby="button-addon1"
-                        class="form-control border-0 bg-light"
-                      />
-                      <div class="input-group-append">
-                        <button
-                          id="button-addon1"
-                          type="submit"
-                          class="btn pb-1"
-                        >
-                          <img src="./assets/search.svg" alt="" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </td>
-              <td>
-                <a href="#">
-                  <img src="./assets/user.svg" alt="" />
-                </a>
-              </td>
-              <td>
-                <a href="#"> <img src="./assets/heart.svg" alt="" /></a>
-              </td>
-              <td>
-                <a href="#"><img src="./assets/shopping-cart.svg" alt="" /></a>
-              </td>
-              <td>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navMenu"
-                  aria-controls="navMenu"
-                  aria-expanded=""
-                  aria-label="Toggle navigation"
-                  style="border: none"
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="../shop/shop.html">shop</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="../product/product.html"
+                  >collection</a
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </td>
-            </tr>
-          </table>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">pages</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="../contact/contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              style="border-radius: 9999px"
+            />
+          </form>
+          <div class="navbar navbar-expand">
+            <ul class="navbar-nav">
+              <li>
+                <img
+                  src="./assets/user.svg"
+                  alt=""
+                  style="width: 1.2rem; margin: 0 0.5rem"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/heart.svg"
+                  alt=""
+                  style="width: 1.2rem; margin: 0 0.5rem"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/shopping-cart.svg"
+                  alt=""
+                  style="width: 1.2rem; margin: 0 0.5rem"
+                />
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
         </div>
       </nav>
     </div>
-    <div class="hero">
-      <div class="container-fluid px-0" id="carousel">
-        <div
-          id="carouselExampleDark"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-            ></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-              <img src="assets/sl1-1_1.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Next SS Preview<br />Woman Shoes</h2>
-                <p id="more_button" href="#">discover more</p>
-              </div>
+
+    <div class="container-fluid p-0 border border-warning" id="carousel">
+      <div
+        id="carouselExampleDark"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ul class="carousel-indicators">
+          <li
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            class="inactive"
+          ></li>
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="assets/sl1-1_1.jpg" class="w-100" alt="..." />
+            <div
+              class="carousel-caption"
+              style="position: absolute; top: 50%; transform: translateY(-50%)"
+            >
+              <h2>Next SS Preview<br />Woman Shoes</h2>
+              <a href="#" class="btn btn-outline p-0">discover more</a>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
-              <img src="assets/sl2-1.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Pink<br />Sneaker</h2>
-                <p id="more_button" href="#">discover more</p>
-              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="assets/sl2-1.jpg" class="w-100" alt="..." />
+            <div
+              class="carousel-caption"
+              style="position: absolute; top: 50%; transform: translateY(-50%)"
+            >
+              <h2>Pink<br />Sneaker</h2>
+              <p id="more_button" href="#">discover more</p>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
-              <img src="assets/sl3-1.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Winter <br />Collection</h2>
-                <p id="more_button" href="https://google.com">discover more</p>
-              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="assets/sl3-1.jpg" class="w-100" alt="..." />
+            <div
+              class="carousel-caption"
+              style="position: absolute; top: 60%; transform: translateY(-50%)"
+            >
+              <h2>Winter <br />Collection</h2>
+              <p id="more_button" href="https://google.com">discover more</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid" id="bottom_banner">
       <div class="row">
-        <div class="col-1 social_block">
+        <div class="col-12 col-lg-4 p-0">
+          <img src="./assets/banner_h1_1.jpg" alt="" class="w-100" />
+          <div
+            class="text-right text-black"
+            style="
+              position: absolute;
+              top: 50%;
+              left: 5%;
+              transform: translateY(-50%);
+            "
+          >
+            <p class="text-secondary">Jacquard Print</p>
+            <h2>Hairband<br />Collection</h2>
+            <a href="#" class="btn btn-outline p-0">discover more</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 p-0">
+          <img src="./assets/banner_h1_2.jpg" alt="" class="w-100" />
+          <div
+            class="text-center text-white"
+            style="
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            "
+          >
+            <p>Jacquard Print</p>
+            <h2>Hairband<br />Collection</h2>
+            <a href="#" class="btn btn-outline p-0 btn-outline-info"
+              >discover more</a
+            >
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 p-0">
+          <img src="./assets/banner_h1_3.jpg" alt="" class="w-100" />
+          <div
+            class="text-right text-black"
+            style="
+              position: absolute;
+              top: 50%;
+              right: 15%;
+              transform: translateY(-50%);
+            "
+          >
+            <p>Special Price</p>
+            <h2>Coudroy<br />Culottes</h2>
+            <a href="#" class="btn btn-outline p-0">discover more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5" id="top_sellers">
+      <div class="row d-flex justify-content-center border border-warning">
+        <div class="col-8 px-0 pt-3 border border-warning">
+          <h2>Top Sellers</h2>
+          <p class="text-secondary">Browse the huge variety of our products</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-3 px-0 border border-warning">
+          <div class="card pt-lg-5" style="border: none">
+            <img
+              src="./assets/bsl1.jpg"
+              class="card-img-top w-50 pt-lg-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title mt-n5">Leather<br />Shop<br />Bag</h5>
+            </div>
+            <ul class="list-group list-group-flush" style="border: none">
+              <li class="list-group-item py-0 text-secondary">$59.90</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 border border-warning">2</div>
+      </div>
+    </div>
+    <!--<div class="hero">
+      <div class="row d-flex">
+        <div class="col-1 social_block align-self-center">
           <div>
             <img class="social_icon" src="./assets/twitter.svg" alt="" />
           </div>
@@ -169,12 +267,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+    </div>-->
   </body>
 </html>
