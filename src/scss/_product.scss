@@ -3,8 +3,13 @@
 }
 
 .review-star {
-color: $secondary;
+    color: $secondary;
 }
 
 
 $breadcrumb-divider: url(/homepage/assets/circle-fill.svg);
+
+.navbar .product {
+    font-weight: bold;
+    font-size: medium;
+}
