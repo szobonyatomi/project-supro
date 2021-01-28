@@ -5,40 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/style.css" id="" />
-
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Single-product page</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <!-- Hero section  -->
-        <!-- Hero section  -->
+        <!-- Header section  -->
+        <!-- Header section  -->
+
+        <!-- Breadcrumb    -->
+        <!-- Breadcrumb    -->
 
         <!-- First section  -->
 
-        <div class="row d-flex justify-content-center">
+        <div class="row">
             <div class="col-4 px-0">
-                <img src="/homepage/assets/prd_08_1_6.jpg" alt="Single product picture">
+                <img src="/homepage/assets/prd_08_1_6.jpg" alt="Single product picture" class="h-100">
             </div>
-            <div class="col-5">
-                <div class="card rounded-0 border-bottom" style="border:none;">
+            <div class="col-4">
+                <div class="card rounded-0 border-bottom mb-4" style="border:none;">
                     <div>
-                        <p class="mb-0 text-muted text-lowercase small"> 1 Review</p>
-                        <h5>Contrasting Design T-shirt</h5>
+                        <div class="d-flex mb-2">
+                            <i class="fas fa-star" style="color:#FAA42D;"></i>
+                            <i class="fas fa-star" style="color:#FAA42D;"></i>
+                            <i class="fas fa-star" style="color:#FAA42D;"></i>
+                            <i class="fas fa-star" style="color:#FAA42D;"></i>
+                            <i class="far fa-star mr-3"></i>
+                            <p class="mb-0 text-muted text-lowercase small"> 1 Review</p>
+                        </div>
+                        <h4><strong>Contrasting Design T-shirt</strong></h4>
                         <p class="mb-2 text-muted text-uppercase small">SKU : AB1609456789</p>
-                        <p class="mb-3 text-uppercase">£ 95.90</p>
-                        <p class="mb-2"> 
+                        <p class="mb-3 text-uppercase lead">£ 95.90</p>
+                        <p class="mb-2 text-secondary"> 
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore.
                         </p>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <div class="">minus plus btn </div>
-                        <div> Add to cart</div>
-                        <div>heart icon to put</div>
+                    <div class=" d-flex justify-content-between mb-3">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-outline-secondary rounded-0" style="border-right:0;">+</button>
+                            <div class="btn btn-outline-secondary" style="border-left:0; border-right:0;">
+                                <span class="text-body">1</span>
+                            </div>
+                            <button type="button" class="btn btn-outline-secondary rounded-0" style="border-left:0;">-</button>
+                        </div>
+                        <button type="button" class="btn btn-dark text-uppercase rounded-0 px-5">
+                            <strong> add to cart </strong>
+                        </button>           
+                        <div class="btn btn-outline-secondary rounded-0">
+                            </span>
+                            <i class="far fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-dark text-uppercase rounded-0 mb-4">
+                        <strong> buy now </strong>
+                    </button>           
+                </div>
+                <div>
+                    <div>
+                        <p class="small text-muted text-capitalize"><span class="text-uppercase text-dark"><strong>category :</strong></span> women, top, accessories, jewellery<p>
+                        <p class=" small text-muted"><span class="text-uppercase text-dark"><strong>tags :</strong></span> clothing, t-shirt, woman<p>
                     </div>
                 </div>
-                    
+                <div class="bg-primary">
+
+                </div>
             </div>
         </div>
 
