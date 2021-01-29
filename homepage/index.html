@@ -24,12 +24,19 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Supro</title>
   </head>
   <body>
     <div
-      class="container-fluid border border-warning position-absolute"
       id="menubar"
+      class="container-fluid border border-warning position-absolute"
     >
       <nav
         class="navbar navbar-expand-lg border border-warning sticky-top navbar-light bg-transparent"
@@ -112,10 +119,10 @@
       </nav>
     </div>
 
-    <div class="container-fluid p-0 border border-warning" id="carousel">
+    <div id="carousel" class="container-fluid p-0 border border-warning">
       <div
         id="carouselExampleDark"
-        class="carousel slide"
+        class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <ul class="carousel-indicators">
@@ -166,8 +173,8 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="bottom_banner">
-      <div class="row">
+    <div id="bottom_banner" class="container-fluid border border-warning">
+      <div class="row border border-warning">
         <div class="col-12 col-lg-4 p-0">
           <img src="./assets/banner_h1_1.jpg" alt="" class="w-100" />
           <div
@@ -221,7 +228,7 @@
       </div>
     </div>
 
-    <div class="container-fluid pt-5" id="top_sellers">
+    <div id="top_sellers" class="container-fluid pt-5">
       <div class="row d-flex justify-content-center border border-warning">
         <div class="col-4 px-0 pt-3 border border-warning">
           <h2 class="mb-0">Top Sellers</h2>
@@ -249,7 +256,7 @@
           <div class="card px-0" style="border: none">
             <div class="row m-0">
               <div class="col-2 px-0 border border-success" style="z-index: 10">
-                <div class="card-body overflow-visible min-vw-100 p-0">
+                <div class="card-body p-0">
                   <h3 class="card-title pt-5">
                     Flower<br />Design<br />Blouse
                   </h3>
@@ -270,7 +277,7 @@
           <div class="card px-0" style="border: none">
             <div class="row m-0">
               <div class="col-2 px-0 border border-success" style="z-index: 10">
-                <div class="card-body overflow-visible min-vw-100 p-0">
+                <div class="card-body p-0">
                   <h3 class="card-title pt-5">
                     Glitter<br />Decorated<br />Shoes
                   </h3>
@@ -303,7 +310,7 @@
       </div>
     </div>
 
-    <div class="container-fluid border border-warning" id="new_arrival">
+    <div id="new_arrival" class="container-fluid border border-warning">
       <div class="row d-flex justify-content-center border border-warning">
         <div class="col-4 px-0 pt-3 border border-warning">
           <h2 class="mb-0">New Arrival</h2>
@@ -426,15 +433,15 @@
       </div>
     </div>
 
-    <div class="container-fluid px-0" id="deal_of_the_day">
+    <div id="deal_of_the_day" class="container-fluid px-0">
       <div class="card bg-dark text-white">
         <img class="card-img" src="./assets/deals_image.jpg" alt="Card image" />
         <div class="col-2"></div>
         <div
-          class="row card-img-overlay justify-content-center align-content-center"
+          class="row card-img-overlay justify-content-center align-content-center p-0 w-100"
         >
           <div class="col-8 px-0">
-            <div class="col-5 px-0">
+            <div class="col-5">
               <p class="text-secondary">Deal of the day</p>
               <h3 class="text-primary">Hobo Shopper Bag</h3>
 
@@ -460,7 +467,7 @@
       </div>
     </div>
 
-    <div class="container-fluid pt-5" id="latest_news">
+    <div id="latest_news" class="container-fluid pt-5">
       <div class="row d-flex justify-content-center border border-warning">
         <div class="col-5 px-0 pt-3 border border-warning">
           <h2 class="mb-0">Latest News</h2>
@@ -475,54 +482,112 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center border border-warning">
-        <div class="col-8 px-0">
-          <div class="carte col-3">
-            <img src="./assets/blog1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Five things you only know if you are were at Chanel's Hamburg
-                Show
-              </h5>
-              <div class="d-inline-flex">
-                <p class="text-warning">DIY</p>
-                <p class="text-secondary">June 10, 2019</p>
-              </div>
-              <div><a href="#" class="btn btn-outline p-0">READ MORE</a></div>
-            </div>
-          </div>
-          <div class="carte col-3">
-            <img src="./assets/blog1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Five things you only know if you are were at Chanel's Hamburg
-                Show
-              </h5>
-              <div class="d-inline-flex">
-                <p class="text-warning">DIY</p>
-                <p class="text-secondary">June 10, 2019</p>
-              </div>
+        <div class="col-8 px-0 pb-5">
+          <diw class="row">
+            <div class="card col-4 h-100">
+              <img
+                src="./assets/blog1.jpg"
+                class="card-img-top w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title pt-4 pb-2">
+                  Five things you only know if you are were at Chanel's Hamburg
+                  Show
+                </h5>
+                <div class="d-inline-flex">
+                  <p class="text-warning">DIY</p>
+                  <p class="text-secondary px-2">June 10, 2019</p>
+                </div>
 
-              <a href="#" class="btn btn-outline p-0">READ MORE</a>
-            </div>
-          </div>
-          <div class="carte col-3">
-            <img src="./assets/blog1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Five things you only know if you are were at Chanel's Hamburg
-                Show
-              </h5>
-              <div class="d-inline-flex">
-                <p class="text-warning">DIY</p>
-                <p class="text-secondary">June 10, 2019</p>
+                <div><a href="#" class="btn btn-outline p-0">READ MORE</a></div>
               </div>
-
-              <a href="#" class="btn btn-outline p-0">READ MORE</a>
             </div>
-          </div>
+            <div class="card col-4 h-100">
+              <img
+                src="./assets/blog2.jpg"
+                class="card-img-top w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title pt-4 pb-2">
+                  Kering Reinforces Luxury Status By Disturbing Puma Shares
+                </h5>
+                <div class="d-inline-flex">
+                  <p class="text-warning">DIY</p>
+                  <p class="text-secondary px-2">June 9, 2019</p>
+                </div>
+
+                <div>
+                  <a href="#" class="btn btn-outline p-0">READ MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-4 h-100">
+              <img
+                src="./assets/blog3.jpg"
+                class="card-img-top w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title pt-4 pb-2">
+                  This Glittery Sneakers will make you want to ditch your
+                  holiday heels
+                </h5>
+                <div class="d-inline-flex">
+                  <p class="text-warning">DIY</p>
+                  <p class="text-secondary px-2">June 6, 2019</p>
+                </div>
+                <div><a href="#" class="btn btn-outline p-0">READ MORE</a></div>
+              </div>
+            </div>
+          </diw>
         </div>
       </div>
     </div>
+
+    <div id="keep_connected" class="container-fluid pt-5 mb-5">
+      <div class="row d-flex justify-content-center border border-warning">
+        <div class="col-3 px-0 pt-3 border border-warning">
+          <h2 class="mb-0">Keep Connected</h2>
+          <p class="text-secondary">
+            Get updates by subscribe our weekly newsletter
+          </p>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-end">
+          <div class="input-group ml-5" style="border-bottom: 1px solid">
+            <input
+              type="text "
+              class="form-control"
+              placeholder="Email Adress"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+              style="border: none"
+            />
+            <button class="btn btn-outline" type="button" id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <div id="thumbnail_slider" class="container-fluid px-0 mb-5">
+      <section class="customer-logos slider">
+        <div class="slide"><img src="./assets/blog1.jpg" /></div>
+        <div class="slide"><img src="./assets/blog2.jpg" /></div>
+        <div class="slide"><img src="./assets/blog3.jpg" /></div>
+        <div class="slide"><img src="./assets/blog4_1.jpg" /></div>
+        <div class="slide"><img src="./assets/blog5_1.jpg" /></div>
+        <div class="slide"><img src="./assets/blog6_1.jpg" /></div>
+        <div class="slide"><img src="./assets/blog8.jpg" /></div>
+        <div class="slide"><img src="./assets/blog9.jpg" /></div>
+      </section>
+    </div>
+
     <!--<div class="hero">
       <div class="row d-flex">
         <div class="col-1 social_block align-self-center">
@@ -578,6 +643,36 @@
           document.getElementById('countdown').innerHTML = "It's over";
         }
       }, 1000);
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $('.customer-logos').slick({
+          speed: 5000,
+          cssEase: 'linear',
+          autoplaySpeed: 0,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+          ],
+        });
+      });
     </script>
   </body>
 </html>
