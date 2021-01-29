@@ -15,6 +15,7 @@
 }
 
 /* carousel */
+
 ul.carousel-indicators li,
 ul.carousel-indicators li.active {
   width: 10px;
@@ -60,22 +61,6 @@ body h3 {
     width: 100%;
   }
 }
-
-#more_button_b {
-  font-size: 10px;
-  text-transform: uppercase;
-  width: 92px;
-  letter-spacing: 0.6px;
-  margin: 2rem auto 0;
-
-  &::after {
-    display: block;
-    content: '';
-    background: black;
-    height: 1px;
-  }
-}
-$btn-font-size: 10px;
 
 .btn-outline {
   text-transform: uppercase;
