@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 /* font */
 /* colors */
+/* card */
+/* button */
 html,
 body,
 div,
@@ -150,6 +152,9 @@ ul.carousel-indicators li.active {
 
 ul.carousel-indicators li.active {
   background: black; }
+  background: #222;
+  border: 1px solid #222;
+}
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
   font-size: 5rem;
@@ -158,6 +163,11 @@ ul.carousel-indicators li.active {
 
 body h2 {
   font-weight: 700; }
+
+body h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
 
 /* more_buttons */
 #more_button {
@@ -173,6 +183,7 @@ body h2 {
     height: 1px;
     width: 100%; }
 
+<<<<<<< HEAD
 #more_button_b {
   font-size: 10px;
   text-transform: uppercase;
@@ -185,6 +196,8 @@ body h2 {
     background: black;
     height: 1px; }
 
+=======
+>>>>>>> Tomi
 .btn-outline {
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -197,11 +210,14 @@ body h2 {
   height: 2px; }
 
 /* bottom_banner */
+<<<<<<< HEAD
 #bottom_banner p {
   color: grey;
   font-size: 10px;
   margin-bottom: 3px; }
 
+=======
+>>>>>>> Tomi
 .social_block img {
   width: 2rem; }
 
@@ -263,6 +279,22 @@ body h2 {
 
 .features li {
   list-style: disc; }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #270606;
+  border-radius: 60%;
+  display: inline-block;
+}
+
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -3588,6 +3620,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
+<<<<<<< HEAD
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
   .card > hr {
@@ -3607,6 +3640,38 @@ input[type="button"].btn-block {
   .card > .card-header + .list-group,
   .card > .list-group + .card-footer {
     border-top: 0; }
+=======
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card > .list-group {
+  border-top: inherit;
+  border-bottom: inherit;
+}
+
+.card > .list-group:first-child {
+  border-top-width: 0;
+  border-top-left-radius: calc(0.25rem - 0px);
+  border-top-right-radius: calc(0.25rem - 0px);
+}
+
+.card > .list-group:last-child {
+  border-bottom-width: 0;
+  border-bottom-right-radius: calc(0.25rem - 0px);
+  border-bottom-left-radius: calc(0.25rem - 0px);
+}
+
+.card > .card-header + .list-group,
+.card > .list-group + .card-footer {
+  border-top: 0;
+}
+>>>>>>> Tomi
 
 .card-body {
   flex: 1 1 auto;
@@ -3633,16 +3698,34 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
+<<<<<<< HEAD
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
+=======
+  border-bottom: 0px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 0px) calc(0.25rem - 0px) 0 0;
+}
+>>>>>>> Tomi
 
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
+<<<<<<< HEAD
   border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
+=======
+  border-top: 0px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 0px) calc(0.25rem - 0px);
+}
+>>>>>>> Tomi
 
 .card-header-tabs {
   margin-right: -0.625rem;
@@ -3661,7 +3744,12 @@ input[type="button"].btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
+<<<<<<< HEAD
   border-radius: calc(0.25rem - 1px); }
+=======
+  border-radius: calc(0.25rem - 0px);
+}
+>>>>>>> Tomi
 
 .card-img,
 .card-img-top,
@@ -3671,6 +3759,7 @@ input[type="button"].btn-block {
 
 .card-img,
 .card-img-top {
+<<<<<<< HEAD
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px); }
 
@@ -3678,6 +3767,17 @@ input[type="button"].btn-block {
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px); }
+=======
+  border-top-left-radius: calc(0.25rem - 0px);
+  border-top-right-radius: calc(0.25rem - 0px);
+}
+
+.card-img,
+.card-img-bottom {
+  border-bottom-right-radius: calc(0.25rem - 0px);
+  border-bottom-left-radius: calc(0.25rem - 0px);
+}
+>>>>>>> Tomi
 
 .card-deck .card {
   margin-bottom: 15px; }
@@ -3740,6 +3840,7 @@ input[type="button"].btn-block {
       width: 100%; } }
 
 .accordion {
+<<<<<<< HEAD
   overflow-anchor: none; }
   .accordion > .card {
     overflow: hidden; }
@@ -3753,6 +3854,30 @@ input[type="button"].btn-block {
     .accordion > .card > .card-header {
       border-radius: 0;
       margin-bottom: -1px; }
+=======
+  overflow-anchor: none;
+}
+
+.accordion > .card {
+  overflow: hidden;
+}
+
+.accordion > .card:not(:last-of-type) {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.accordion > .card:not(:first-of-type) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion > .card > .card-header {
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+>>>>>>> Tomi
 
 .breadcrumb {
   display: flex;

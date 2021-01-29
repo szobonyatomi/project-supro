@@ -15,6 +15,7 @@
 }
 
 /* carousel */
+
 ul.carousel-indicators li,
 ul.carousel-indicators li.active {
   width: 10px;
@@ -25,7 +26,8 @@ ul.carousel-indicators li.active {
 }
 
 ul.carousel-indicators li.active {
-  background: black;
+  background: $primary;
+  border: 1px solid $primary;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
@@ -36,6 +38,11 @@ ul.carousel-indicators li.active {
 
 body h2 {
   font-weight: 700;
+}
+
+body h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 /* more_buttons */
 
@@ -55,22 +62,6 @@ body h2 {
   }
 }
 
-#more_button_b {
-  font-size: 10px;
-  text-transform: uppercase;
-  width: 92px;
-  letter-spacing: 0.6px;
-  margin: 2rem auto 0;
-
-  &::after {
-    display: block;
-    content: '';
-    background: black;
-    height: 1px;
-  }
-}
-$btn-font-size: 10px;
-
 .btn-outline {
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -85,12 +76,6 @@ $btn-font-size: 10px;
 }
 
 /* bottom_banner */
-
-#bottom_banner p {
-  color: grey;
-  font-size: 10px;
-  margin-bottom: 3px;
-}
 
 .social_block img {
   width: 2rem;
