@@ -1,2 +1,59 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+body{
+    font-size: small;
+    
+}
 
+/*#txt-img {
+    width: 75%;
+    height: auto;
+    font-size: 10px;
+    margin-top: -39px;
+    
+    h5 {
+        font-size:20px;
+        margin-bottom: -2px;
+    }
+}*/
+
+#date {
+    padding-top: 15px;
+}
+
+#imgFond {
+  
+    z-index: 1;
+}
+#play {
+    position: absolute;
+    z-index: 2;
+
+    top: 60%;
+    right: 36%;
+   
+
+}
+.txt-icon {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+#txt-img{
+    h6{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    p{
+        font-size: 10px;
+    }
+    
+}
+
+#icon_nav {
+    font-size: 10px;
+    h6{
+        font-size:15px;
+    }
+    p {
+        margin-top: -5px;
+    }
+}
