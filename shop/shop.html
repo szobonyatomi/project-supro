@@ -10,6 +10,8 @@
     />
     <link rel="stylesheet" href="../src/css/style.css" id="" />
 
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
     <link href="../src/css/_shop.css"/>
 
 		<title>Supro - Shop</title>
@@ -80,65 +82,115 @@
                   </div>
                 </div>
 
-                <div class="widget color mb-50">
-                  <ul>
-                    <li>
-                      <span class="dot"></span>
+                <div class="container">
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-black"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Black</p>
-                    </li>
+                    </div>
+                  </div>
 
-                    <li>
-                      <span class="dot"></span>
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-blue"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Blue</p>
-                    </li>
+                    </div>
+                  </div>
 
-                    <li>
-                      <span class="dot"></span>
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-gold"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Gold</p>
-                    </li>
+                    </div>
+                  </div>
 
-                    <li>
-                      <span class="dot"></span>
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-nude"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Nude</p>
-                    </li>
+                    </div>
+                  </div>
 
-                    <li>
-                      <span class="dot"></span>
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-orange"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Orange</p>
-                    </li>
+                    </div>
+                  </div>
 
-                    <li>
-                      <span class="dot"></span>
+                  <div class="row" id="color-row">
+                    <div class="col-sm-2">
+                      <span class="dot-red"></span>
+                    </div>
+
+                    <div class="col-sm-4">
                       <p class="text-secondary">Red</p>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="widget products mb-50">
                   <h4 class="widget-title mb-30">Products</h4>
 
-                  <div class="widget-desc">
-                    <div class="reco-product d-flex mb-30">
-                      <div class="product-image mr-3">
-                        <img src="assets/3.jpeg"  alt="">
+                  <div class="container">
+                    <div class="row" id="product-items">
+                      <div class="col-sm-5">
+                        <img class="img-fluid" src="assets/3.jpeg">
                       </div>
-                        
-                      <div class="product-desc">
-                        <h6>Embroidered Flowy Jacket</h6>
+
+                      <div class="col-sm-6">
+                        <h6>Embroidered...</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 56.89</p>
                       </div>
                     </div>
 
-                    <div class="reco-product d-flex mb-30">
+                    <div class="row" id="product-items">
+                      <div class="col-sm-5">
+                        <img class="img-fluid" src="assets/2.jpeg">
+                      </div>
 
+                      <div class="col-sm-6">
+                        <h6>Contrast Back...</h6>
+                        <div>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
+                        </div>
+                        <p class="text-secondary">£ 86.89</p>
+                      </div>
                     </div>
 
-                    <div class="reco-product d-flex mb-30">
+                    <div class="row" id="product-items">
+                      <div class="col-sm-5">
+                        <img class="img-fluid" src="assets/5.jpeg">
+                      </div>
 
+                      <div class="col-sm-6">
+                        <h6>Mango Women...</h6>
+                        <div>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
+                        </div>
+                        <p class="text-secondary">£ 89.59</p>
+                      </div>
                     </div>
+
+
                   </div>
                 </div>
               </div>
@@ -150,62 +202,53 @@
               <div class="shop grid product area">
                 <div class="row">
                   <div class="col-12">
-                    <div class="product-topbar d-flex align-item-center justify-content-between">
-                      <div class="total-products">
-                        <h1>Shop</h1>
-                      </div>
+                    <nav class="navbar navbar-expand-lg">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Shop</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                      <div class="product-sorting d-flex">
-                        <p><strong>25</strong> products found</p>
-                      </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">
+                                <p><strong>25</strong> Products Found</p>
+                              </a>
+                            </li>
 
-                      <div class="product-sorting d-flex">
-                        <p>Filter</p>
-                        <form action="#" method="get">
-                          <select name="select" id="sortByselect" style="display: none;">
-                          <option value="value">Bags</option>
-                          <option value="value">Sunglassest</option>
-                          <option value="value">Shoes</option>
-                          <option value="value">Dress</option>
-                          </select>
-                          <div class="nice-select" tabindex="0">
-                            <ul class="list">
-                              <li data-value="value" class="option selected focus">Bages</li>
-                              <li data-value="value" class="option">Sunglasses</li>
-                              <li data-value="value" class="option">Shoes</li>
-                              <li data-value="value" class="option">Dress</li>
-                            </ul>
-                          </div>
-                          <input type="submit" class="d-none" value="">
-                        </form>
-                      </div>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filter
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
 
-                      <div class="product-sorting d-flex">
-                        <p>Sortby </p>
-                        <form action="#" method="get">
-                          <select name="select" id="sortByselect" style="display: none;">
-                          <option value="value">Bags</option>
-                          <option value="value">Sunglassest</option>
-                          <option value="value">Shoes</option>
-                          <option value="value">Dress</option>
-                          </select>
-                          <div class="nice-select" tabindex="0">
-                            <span class="current"> Default</span>
-                            <ul class="list">
-                              <li data-value="value" class="option selected focus">Bages</li>
-                              <li data-value="value" class="option">Sunglasses</li>
-                              <li data-value="value" class="option">Shoes</li>
-                              <li data-value="value" class="option">Dress</li>
-                            </ul>
-                          </div>
-                          <input type="submit" class="d-none" value="">
-                        </form>
-                      </div>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sortby
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Default</a></li>
+                                <li><a class="dropdown-item" href="#">Price</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Name</a></li>
+                              </ul>
+                            </li>
 
-                      <div class="product-sorting d-flex">
+                            <li class="nav-item">
+
+                            </li>
+                          </ul>
+                        </div>
 
                       </div>
-                    </div>
+                    </nav>
                   </div>
                 </div>
 
@@ -221,7 +264,7 @@
                       <div class="card-body">
                         <h6>Aviator Sunglasses</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 9.90</p>
                       </div>
@@ -237,7 +280,7 @@
                       <div class="card-body">
                         <h6>Contrast Backpack</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 69.90</p>
                       </div>
@@ -253,7 +296,7 @@
                       <div class="card-body">
                         <h6>Embroidered Flowy Jacket</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 56.89</p>
                       </div>
@@ -269,7 +312,7 @@
                       <div class="card-body">
                         <h6>Floral Short Jumpsuit</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 97.99</p>
                       </div>
@@ -285,7 +328,7 @@
                       <div class="card-body">
                         <h6>Mango Women's Bag</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 89.90</p>
                       </div>
@@ -301,7 +344,7 @@
                       <div class="card-body">
                         <h6>Glitter Decorated Shoes</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 56.90</p>
                       </div>
@@ -317,7 +360,7 @@
                       <div class="card-body">
                         <h6>Constrasting Design T-shirt</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 95.90</p>
                       </div>
@@ -333,7 +376,7 @@
                       <div class="card-body">
                         <h6>Furry Hooded Parka</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 95.90</p>
                       </div>
@@ -349,7 +392,7 @@
                       <div class="card-body">
                         <h6>Wrap Back Dress</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 55.90</p>
                       </div>
@@ -365,7 +408,7 @@
                       <div class="card-body">
                         <h6>Leather Shop Bag</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 59.90</p>
                       </div>
@@ -381,7 +424,7 @@
                       <div class="card-body">
                         <h6>Shearling Leather Jacket</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 159.90</p>
                       </div>
@@ -397,7 +440,7 @@
                       <div class="card-body">
                         <h6>Cropped Denim Jumpsuit</h6>
                         <div>
-                          <small class="text-muted">★ ★ ★ ★ ☆</small>
+                          <small class="text-warning">★ ★ ★ ★ ☆</small>
                         </div>
                         <p class="text-secondary">£ 89.99</p>
                       </div>
@@ -407,7 +450,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                  <a class="text-center">Discover More</a>
+                  <a href="#" class="btn btn-outline p-0">discover more</a>
                 </div>
               </div>
             </div>

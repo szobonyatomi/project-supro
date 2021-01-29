@@ -1,19 +1,70 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+#color-row {
+  .col-sm-4 {
+    p {
+      font-size: small;
+    }
+  }
+}
 
 .dot {
-    height: 25px;
-    width: 25px;
-    background-color: rgb(39, 6, 6);
-    border-radius: 60%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
     display: inline-block;
   }
+
+.dot-black {
+  @extend .dot;
+  background-color: black;
+}
+
+.dot-blue {
+  @extend .dot;
+  background-color: rgb(95, 95, 204);
+}
+
+.dot-gold {
+  @extend .dot;
+  background-color: rgb(209, 198, 40);
+}
+
+.dot-nude {
+  @extend .dot;
+  background-color: rgb(175, 139, 84);
+}
+
+.dot-orange {
+  @extend .dot;
+  background-color: rgb(212, 142, 13);
+}
+
+.dot-red {
+  @extend .dot;
+  background-color: rgb(156, 6, 6);
+}
 
   .single-product-wrapper {
     position: relative;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     overflow: hidden;
     background-color: #ffffff;
+}
+
+#product-items {
+  .col-sm-6 {
+    h6 {
+      font-size: smaller;
+    }
+
+    small {
+      font-size: smaller;
+    }
+
+    p {
+      font-size: smaller;
+    }
+  }
 }
 
   
