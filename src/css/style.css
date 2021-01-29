@@ -251,6 +251,19 @@ body h2 {
 #product-items .col-sm-6 p {
   font-size: smaller; }
 
+.review-star-active {
+  color: #FAA42D; }
+
+.review-star {
+  color: #999; }
+
+.navbar .product {
+  font-weight: bold;
+  font-size: medium; }
+
+.features li {
+  list-style: disc; }
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -3756,7 +3769,7 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
-    content: "/"; }
+    content: url(/homepage/assets/circle-fill.svg); }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }

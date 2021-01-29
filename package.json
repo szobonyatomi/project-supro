@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss --output src/css --source-map true"
   },
+<<<<<<< HEAD
   "scripts": {
     "scss": "node-sass --watch src/scss --output src/css --source-map true"
   },
   "repository": {
+=======
+  "repository": { 
+>>>>>>> nana-single-product
     "type": "git",
     "url": "git+https://github.com/szobonyatomi/project-supro.git"
   },
@@ -23,6 +28,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
     "popper.js": "^1.16.1"
   }
 }
