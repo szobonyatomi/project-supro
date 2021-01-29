@@ -1,5 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  font-size: small; }
+
+/*#txt-img {
+    width: 75%;
+    height: auto;
+    font-size: 10px;
+    margin-top: -39px;
+    
+    h5 {
+        font-size:20px;
+        margin-bottom: -2px;
+    }
+}*/
+#date {
+  padding-top: 15px; }
+
+#imgFond {
+  z-index: 1; }
+
+#play {
+  position: absolute;
+  z-index: 2;
+  top: 60%;
+  right: 36%; }
+
+.txt-icon {
+  margin-right: 25px;
+  margin-left: 10px; }
+
+#txt-img h6 {
+  font-size: 12px;
+  margin-bottom: 0px; }
+
+#txt-img p {
+  font-size: 10px; }
+
+#icon_nav {
+  font-size: 10px; }
+  #icon_nav h6 {
+    font-size: 15px; }
+  #icon_nav p {
+    margin-top: -5px; }
+
 /* font */
 /* colors */
 /* card */
@@ -152,9 +196,12 @@ ul.carousel-indicators li.active {
 
 ul.carousel-indicators li.active {
   background: black; }
+<<<<<<< HEAD
   background: #222;
   border: 1px solid #222;
 }
+=======
+>>>>>>> lucia-about
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
   font-size: 5rem;
@@ -183,7 +230,6 @@ body h3 {
     height: 1px;
     width: 100%; }
 
-<<<<<<< HEAD
 #more_button_b {
   font-size: 10px;
   text-transform: uppercase;
@@ -196,8 +242,6 @@ body h3 {
     background: black;
     height: 1px; }
 
-=======
->>>>>>> Tomi
 .btn-outline {
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -224,6 +268,7 @@ body h3 {
 .hero .social_block .social_icon {
   padding: 5px; }
 
+<<<<<<< HEAD
 #color-row .col-sm-4 p {
   font-size: small; }
 
@@ -280,21 +325,31 @@ body h3 {
 .features li {
   list-style: disc; }
 
+=======
+>>>>>>> lucia-about
 .dot {
   height: 25px;
   width: 25px;
   background-color: #270606;
   border-radius: 60%;
+<<<<<<< HEAD
   display: inline-block;
 }
+=======
+  display: inline-block; }
+>>>>>>> lucia-about
 
 .single-product-wrapper {
   position: relative;
   z-index: 1;
   margin-bottom: 50px;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: #ffffff;
 }
+=======
+  background-color: #ffffff; }
+>>>>>>> lucia-about
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -3640,6 +3695,7 @@ input[type="button"].btn-block {
   .card > .card-header + .list-group,
   .card > .list-group + .card-footer {
     border-top: 0; }
+<<<<<<< HEAD
 =======
   border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -3672,6 +3728,8 @@ input[type="button"].btn-block {
   border-top: 0;
 }
 >>>>>>> Tomi
+=======
+>>>>>>> lucia-about
 
 .card-body {
   flex: 1 1 auto;
@@ -3699,6 +3757,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
@@ -3710,10 +3769,16 @@ input[type="button"].btn-block {
   border-radius: calc(0.25rem - 0px) calc(0.25rem - 0px) 0 0;
 }
 >>>>>>> Tomi
+=======
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  .card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
+>>>>>>> lucia-about
 
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
@@ -3726,6 +3791,11 @@ input[type="button"].btn-block {
   border-radius: 0 0 calc(0.25rem - 0px) calc(0.25rem - 0px);
 }
 >>>>>>> Tomi
+=======
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  .card-footer:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
+>>>>>>> lucia-about
 
 .card-header-tabs {
   margin-right: -0.625rem;
@@ -3745,11 +3815,15 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-radius: calc(0.25rem - 1px); }
 =======
   border-radius: calc(0.25rem - 0px);
 }
 >>>>>>> Tomi
+=======
+  border-radius: calc(0.25rem - 1px); }
+>>>>>>> lucia-about
 
 .card-img,
 .card-img-top,
@@ -3767,6 +3841,7 @@ input[type="button"].btn-block {
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px); }
+<<<<<<< HEAD
 =======
   border-top-left-radius: calc(0.25rem - 0px);
   border-top-right-radius: calc(0.25rem - 0px);
@@ -3779,6 +3854,9 @@ input[type="button"].btn-block {
 }
 >>>>>>> Tomi
 
+=======
+
+>>>>>>> lucia-about
 .card-deck .card {
   margin-bottom: 15px; }
 
@@ -3841,6 +3919,9 @@ input[type="button"].btn-block {
 
 .accordion {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> lucia-about
   overflow-anchor: none; }
   .accordion > .card {
     overflow: hidden; }
@@ -3854,6 +3935,7 @@ input[type="button"].btn-block {
     .accordion > .card > .card-header {
       border-radius: 0;
       margin-bottom: -1px; }
+<<<<<<< HEAD
 =======
   overflow-anchor: none;
 }
@@ -3878,6 +3960,8 @@ input[type="button"].btn-block {
   margin-bottom: 0px;
 }
 >>>>>>> Tomi
+=======
+>>>>>>> lucia-about
 
 .breadcrumb {
   display: flex;
@@ -3894,7 +3978,11 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
+<<<<<<< HEAD
     content: url(/homepage/assets/circle-fill.svg); }
+=======
+    content: "/"; }
+>>>>>>> lucia-about
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
