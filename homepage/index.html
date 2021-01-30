@@ -607,12 +607,18 @@
       </div>
     </div>-->
     <script>
-      var yourDateToGo = new Date();
+      /* var yourDateToGo = new Date();
       yourDateToGo.setDate(yourDateToGo.getDate() + 10);
 
       var timing = setInterval(function () {
         var currentDate = new Date().getTime();
-        var timeLeft = yourDateToGo - currentDate;
+        var timeLeft = yourDateToGo - currentDate;*/
+
+      var beCodeEndDate = new Date('2021-10-26');
+
+      var timing = setInterval(function () {
+        var currentDate = new Date().getTime();
+        var timeLeft = beCodeEndDate - currentDate;
 
         var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
         if (days < 10) days = '0' + days;
@@ -648,10 +654,10 @@
     <script>
       $(document).ready(function () {
         $('.customer-logos').slick({
-          speed: 5000,
+          speed: 7000,
           cssEase: 'linear',
           autoplaySpeed: 0,
-          slidesToShow: 4,
+          slidesToShow: 7,
           slidesToScroll: 1,
           autoplay: true,
           arrows: false,
