@@ -238,73 +238,67 @@
       </div>
       <div class="row d-flex mb-5 justify-content-center">
         <div class="col-3 px-0 border border-warning">
-          <div class="card pt-lg-5" style="border: none">
+          <div class="card pt-lg-3">
             <img
               src="./assets/bsl1.jpg"
               class="card-img-top w-50 pt-lg-5"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title mt-n5">Leather<br />Shop<br />Bag</h5>
+              <h4 class="card-title mt-n5">Leather<br />Shop<br />Bag</h4>
 
               <p class="py-0 text-secondary">$59.90></p>
               <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
             </div>
           </div>
         </div>
-        <div class="col-5 px-0 border border-warning">
-          <div class="card px-0" style="border: none">
-            <div class="row m-0">
-              <div class="col-2 px-0 border border-success" style="z-index: 10">
-                <div class="card-body p-0">
-                  <h3 class="card-title pt-5">
-                    Flower<br />Design<br />Blouse
-                  </h3>
-
-                  <p class="p-0 text-secondary">$89.90</p>
-                  <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
-                </div>
-              </div>
-              <div class="col-10 px-0 float-end border border-success">
-                <img src="./assets/bsl2.jpg" class="w-100" alt="..." />
-              </div>
-            </div>
+        <div class="col-5 px-0 border border-success">
+          <div class="card-body card-img-overlay p-0 pl-5">
+            <h1 class="card-title pt-5 text-l">
+              Flower<br />Design<br />Blouse
+            </h1>
+            <p class="p-0 text-secondary">$89.90</p>
+            <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+          </div>
+          <div class="d-flex justify-content-end">
+            <img src="./assets/bsl2.jpg" class="w-75 end-0" alt="..." />
           </div>
         </div>
       </div>
       <div class="row d-flex my-5 justify-content-center">
-        <div class="col-5 px-0 border border-warning">
-          <div class="card px-0" style="border: none">
-            <div class="row m-0">
-              <div class="col-2 px-0 border border-success" style="z-index: 10">
-                <div class="card-body p-0">
-                  <h3 class="card-title pt-5">
-                    Glitter<br />Decorated<br />Shoes
-                  </h3>
-
-                  <p class="p-0 text-secondary">$99.90</p>
-                  <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
-                </div>
-              </div>
-              <div class="col-10 px-0 float-end border border-success">
-                <img src="./assets/bsl3.jpg" class="w-100" alt="..." />
-              </div>
-            </div>
+        <div class="col-5 px-0 border border-success">
+          <div class="card-body card-img-overlay p-0 pl-5">
+            <h1 class="card-title pt-5 text-l">
+              Glitter<br />Decorated<br />Shouse
+            </h1>
+            <p class="p-0 text-secondary">$89.90</p>
+            <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+          </div>
+          <div class="d-flex justify-content-end">
+            <img src="./assets/bsl3.jpg" class="w-75 end-0" alt="..." />
           </div>
         </div>
         <div class="col-3 px-0 border border-warning">
-          <div class="card pt-lg-5" style="border: none">
-            <img
-              src="./assets/bsl4.jpg"
-              class="card-img-top w-50 pt-lg-5"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title mt-n5">Metalic<br />Frame<br />Glasses</h5>
+          <div class="row m-0">
+            <div
+              class="col-lg-6 order-last pt-lg-3 px-0 border border-warning"
+              style="border: none"
+            >
+              <img
+                src="./assets/bsl4.jpg"
+                class="card-img-top w-100 pt-lg-5"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-n5">
+                  Metalic<br />Frame<br />Glasses
+                </h5>
 
-              <p class="py-0 text-secondary">$29.90></p>
-              <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+                <p class="py-0 text-secondary">$29.90></p>
+                <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+              </div>
             </div>
+            <div class="col-lg-6"></div>
           </div>
         </div>
       </div>
@@ -573,8 +567,6 @@
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
     <div id="thumbnail_slider" class="container-fluid px-0 mb-5">
       <section class="customer-logos slider">
         <div class="slide"><img src="./assets/blog1.jpg" /></div>
@@ -607,14 +599,21 @@
       </div>
     </div>-->
     <script>
+      /* Countdown */
+
+      /* With day settings */
+
       /* var yourDateToGo = new Date();
-      yourDateToGo.setDate(yourDateToGo.getDate() + 10);
+      yourDateToGo.setDate(yourDateToGo.getDate() + 1);   /* set number of days/
 
       var timing = setInterval(function () {
         var currentDate = new Date().getTime();
-        var timeLeft = yourDateToGo - currentDate;*/
+        var timeLeft = yourDateToGo - currentDate; */
 
-      var beCodeEndDate = new Date('2021-10-26');
+      /* With fix date end */
+      var beCodeEndDate = new Date('2021-10-26'); /* set end date */
+
+      /* timer */
 
       var timing = setInterval(function () {
         var currentDate = new Date().getTime();
@@ -652,12 +651,14 @@
     </script>
 
     <script>
+      /* Pic-Thumbnail-Logo Slider */
+
       $(document).ready(function () {
         $('.customer-logos').slick({
-          speed: 7000,
+          speed: 7000 /* sliding speed bigger number -> slowly */,
           cssEase: 'linear',
           autoplaySpeed: 0,
-          slidesToShow: 7,
+          slidesToShow: 7 /* showing image number/slider  -> image/slider size */,
           slidesToScroll: 1,
           autoplay: true,
           arrows: false,
