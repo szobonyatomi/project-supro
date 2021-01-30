@@ -30,11 +30,32 @@ ul.carousel-indicators li.active {
   border: 1px solid $primary;
 }
 
-.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+.carousel-button:active {
+  color: $primary;
+}
+
+.carousel-caption h2 {
   font-size: 5rem;
   letter-spacing: 0.2rem;
   line-height: 4.8rem;
 }
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-google-plus-g:hover {
+  color: $primary;
+}
+
+.fa-pinterest:hover {
+  color: #e60023;
+}
+
 body h1 {
   font-weight: 700;
 }

@@ -141,7 +141,7 @@
         </ul>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="assets/sl1-1_1.jpg" class="w-100" alt="..." />
+            <img src="assets/sl1-1_1.jpg" class="d-block w-100" alt="..." />
             <div
               class="carousel-caption"
               style="position: absolute; top: 50%; transform: translateY(-50%)"
@@ -151,7 +151,7 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="assets/sl2-1.jpg" class="w-100" alt="..." />
+            <img src="assets/sl2-1.jpg" class="d-block w-100" alt="..." />
             <div
               class="carousel-caption"
               style="position: absolute; top: 50%; transform: translateY(-50%)"
@@ -161,7 +161,7 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="assets/sl3-1.jpg" class="w-100" alt="..." />
+            <img src="assets/sl3-1.jpg" class="d-block w-100" alt="..." />
             <div
               class="carousel-caption"
               style="position: absolute; top: 60%; transform: translateY(-50%)"
@@ -172,13 +172,14 @@
           </div>
         </div>
         <div
-          class="row card-img-overlay m-0 align-content-center border border-success"
+          class="row card-img-overlay m-0 align-content-center justify-content-between border border-success"
           style="z-index: 100"
+          id="overlay"
         >
           <div class="col-1 p-0 ml-4 border border-white">
             <ul class="m-0">
               <li>
-                <a href="#"
+                <a href="http://www.twitter.com"
                   ><i class="fab fa-twitter fa-2x text-secondary py-3"></i
                 ></a>
               </li>
@@ -196,6 +197,38 @@
                 <a href="#"
                   ><i class="fab fa-pinterest fa-2x text-secondary py-3"></i
                 ></a>
+              </li>
+            </ul>
+          </div>
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-slide mr-4 text-right text-secondary"
+            data-bs-ride="carousel"
+          >
+            <ul class="overlay_text">
+              <li
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="carousel-button active py-3"
+              >
+                <p>Nest SS Preview</p>
+                <h5>Woman Shoes</h5>
+              </li>
+              <li
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                class="carousel-button py-3"
+              >
+                <p>Pink</p>
+                <h5>Sneaker</h5>
+              </li>
+              <li
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                class="carousel-button py-3"
+              >
+                <p>Winter</p>
+                <h5>Collection</h5>
               </li>
             </ul>
           </div>
@@ -234,10 +267,10 @@
         <div class="col-12 col-lg-4 card p-0">
           <img src="./assets/banner_h1_3.jpg" alt="" class="w-100" />
           <div
-            class="row card-img-overlay align-content-center justify-content-end p-0 m-0"
+            class="row card-img-overlay align-content-center justify-content-end p-0 pr-5 m-0"
           >
-            <div class="col-6 text-left text-black">
-              <p>Special Price</p>
+            <div class="col-6 text-right text-black">
+              <p class="text-secondary">Special Price</p>
               <h2>Coudroy<br />Culottes</h2>
               <a href="#" class="btn btn-outline p-0">discover more</a>
             </div>
