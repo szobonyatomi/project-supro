@@ -195,13 +195,8 @@ ul.carousel-indicators li.active {
   background: transparent; }
 
 ul.carousel-indicators li.active {
-  background: black; }
-<<<<<<< HEAD
   background: #222;
-  border: 1px solid #222;
-}
-=======
->>>>>>> lucia-about
+  border: 1px solid #222; }
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
   font-size: 5rem;
@@ -213,8 +208,7 @@ body h2 {
 
 body h3 {
   font-weight: 600;
-  font-size: 1.6rem;
-}
+  font-size: 1.6rem; }
 
 /* more_buttons */
 #more_button {
@@ -230,18 +224,6 @@ body h3 {
     height: 1px;
     width: 100%; }
 
-#more_button_b {
-  font-size: 10px;
-  text-transform: uppercase;
-  width: 92px;
-  letter-spacing: 0.6px;
-  margin: 2rem auto 0; }
-  #more_button_b::after {
-    display: block;
-    content: '';
-    background: black;
-    height: 1px; }
-
 .btn-outline {
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -254,23 +236,11 @@ body h3 {
   height: 2px; }
 
 /* bottom_banner */
-<<<<<<< HEAD
-#bottom_banner p {
-  color: grey;
-  font-size: 10px;
-  margin-bottom: 3px; }
-
-=======
->>>>>>> Tomi
 .social_block img {
   width: 2rem; }
 
 .hero .social_block .social_icon {
   padding: 5px; }
-
-<<<<<<< HEAD
-#color-row .col-sm-4 p {
-  font-size: small; }
 
 .dot, .dot-black, .dot-blue, .dot-gold, .dot-nude, .dot-orange, .dot-red {
   height: 12px;
@@ -312,11 +282,30 @@ body h3 {
 #product-items .col-sm-6 p {
   font-size: smaller; }
 
+.dot, .dot-black, .dot-blue, .dot-gold, .dot-nude, .dot-orange, .dot-red {
+  height: 25px;
+  width: 25px;
+  background-color: #270606;
+  border-radius: 60%;
+  display: inline-block; }
+
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: #ffffff; }
+
 .review-star-active {
   color: #FAA42D; }
 
 .review-star {
   color: #999; }
+
+.fa-circle {
+  font-size: .3rem;
+  position: relative;
+  bottom: 1px; }
 
 .navbar .product {
   font-weight: bold;
@@ -324,32 +313,6 @@ body h3 {
 
 .features li {
   list-style: disc; }
-
-=======
->>>>>>> lucia-about
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: #270606;
-  border-radius: 60%;
-<<<<<<< HEAD
-  display: inline-block;
-}
-=======
-  display: inline-block; }
->>>>>>> lucia-about
-
-.single-product-wrapper {
-  position: relative;
-  z-index: 1;
-  margin-bottom: 50px;
-  overflow: hidden;
-<<<<<<< HEAD
-  background-color: #ffffff;
-}
-=======
-  background-color: #ffffff; }
->>>>>>> lucia-about
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -3675,8 +3638,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-<<<<<<< HEAD
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -3686,50 +3648,15 @@ input[type="button"].btn-block {
     border-bottom: inherit; }
     .card > .list-group:first-child {
       border-top-width: 0;
-      border-top-left-radius: calc(0.25rem - 1px);
-      border-top-right-radius: calc(0.25rem - 1px); }
+      border-top-left-radius: calc(0.25rem - 0px);
+      border-top-right-radius: calc(0.25rem - 0px); }
     .card > .list-group:last-child {
       border-bottom-width: 0;
-      border-bottom-right-radius: calc(0.25rem - 1px);
-      border-bottom-left-radius: calc(0.25rem - 1px); }
+      border-bottom-right-radius: calc(0.25rem - 0px);
+      border-bottom-left-radius: calc(0.25rem - 0px); }
   .card > .card-header + .list-group,
   .card > .list-group + .card-footer {
     border-top: 0; }
-<<<<<<< HEAD
-=======
-  border: 0px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-.card > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.card > .list-group {
-  border-top: inherit;
-  border-bottom: inherit;
-}
-
-.card > .list-group:first-child {
-  border-top-width: 0;
-  border-top-left-radius: calc(0.25rem - 0px);
-  border-top-right-radius: calc(0.25rem - 0px);
-}
-
-.card > .list-group:last-child {
-  border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.25rem - 0px);
-  border-bottom-left-radius: calc(0.25rem - 0px);
-}
-
-.card > .card-header + .list-group,
-.card > .list-group + .card-footer {
-  border-top: 0;
-}
->>>>>>> Tomi
-=======
->>>>>>> lucia-about
 
 .card-body {
   flex: 1 1 auto;
@@ -3756,46 +3683,16 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  border-bottom: 0px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
-=======
-  border-bottom: 0px solid rgba(0, 0, 0, 0.125);
-}
-
-.card-header:first-child {
-  border-radius: calc(0.25rem - 0px) calc(0.25rem - 0px) 0 0;
-}
->>>>>>> Tomi
-=======
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
-  .card-header:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
->>>>>>> lucia-about
+    border-radius: calc(0.25rem - 0px) calc(0.25rem - 0px) 0 0; }
 
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  border-top: 0px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
-    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
-=======
-  border-top: 0px solid rgba(0, 0, 0, 0.125);
-}
-
-.card-footer:last-child {
-  border-radius: 0 0 calc(0.25rem - 0px) calc(0.25rem - 0px);
-}
->>>>>>> Tomi
-=======
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
-  .card-footer:last-child {
-    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
->>>>>>> lucia-about
+    border-radius: 0 0 calc(0.25rem - 0px) calc(0.25rem - 0px); }
 
 .card-header-tabs {
   margin-right: -0.625rem;
@@ -3814,16 +3711,7 @@ input[type="button"].btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-radius: calc(0.25rem - 1px); }
-=======
-  border-radius: calc(0.25rem - 0px);
-}
->>>>>>> Tomi
-=======
-  border-radius: calc(0.25rem - 1px); }
->>>>>>> lucia-about
+  border-radius: calc(0.25rem - 0px); }
 
 .card-img,
 .card-img-top,
@@ -3833,30 +3721,14 @@ input[type="button"].btn-block {
 
 .card-img,
 .card-img-top {
-<<<<<<< HEAD
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px); }
-
-.card-img,
-.card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px); }
-<<<<<<< HEAD
-=======
   border-top-left-radius: calc(0.25rem - 0px);
-  border-top-right-radius: calc(0.25rem - 0px);
-}
+  border-top-right-radius: calc(0.25rem - 0px); }
 
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 0px);
-  border-bottom-left-radius: calc(0.25rem - 0px);
-}
->>>>>>> Tomi
+  border-bottom-left-radius: calc(0.25rem - 0px); }
 
-=======
-
->>>>>>> lucia-about
 .card-deck .card {
   margin-bottom: 15px; }
 
@@ -3918,10 +3790,6 @@ input[type="button"].btn-block {
       width: 100%; } }
 
 .accordion {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> lucia-about
   overflow-anchor: none; }
   .accordion > .card {
     overflow: hidden; }
@@ -3934,34 +3802,7 @@ input[type="button"].btn-block {
       border-top-right-radius: 0; }
     .accordion > .card > .card-header {
       border-radius: 0;
-      margin-bottom: -1px; }
-<<<<<<< HEAD
-=======
-  overflow-anchor: none;
-}
-
-.accordion > .card {
-  overflow: hidden;
-}
-
-.accordion > .card:not(:last-of-type) {
-  border-bottom: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.accordion > .card:not(:first-of-type) {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.accordion > .card > .card-header {
-  border-radius: 0;
-  margin-bottom: 0px;
-}
->>>>>>> Tomi
-=======
->>>>>>> lucia-about
+      margin-bottom: 0px; }
 
 .breadcrumb {
   display: flex;
@@ -3978,11 +3819,7 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
-<<<<<<< HEAD
-    content: url(/homepage/assets/circle-fill.svg); }
-=======
     content: "/"; }
->>>>>>> lucia-about
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
