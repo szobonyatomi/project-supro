@@ -302,11 +302,11 @@ body h3 {
 .review-star {
   color: #999; }
 
-.fa-circle {
-  font-size: .3rem;
-  position: relative;
-  bottom: 1px; }
-
+/* .fa-circle {
+    font-size: .3rem;
+    position: relative;
+    bottom: 1px; 
+} */
 .navbar .product {
   font-weight: bold;
   font-size: medium; }
@@ -3819,7 +3819,7 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
-    content: "/"; }
+    content: url(/product/img/divider.svg); }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
