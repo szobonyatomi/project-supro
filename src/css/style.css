@@ -221,7 +221,7 @@ ul.carousel-indicators li.active {
   border: 1px solid #222;
 }
 
-.carousel-button:active {
+.carousel-button .active {
   color: #222;
 }
 
@@ -288,22 +288,6 @@ body h3 {
   display: block;
   content: '';
   background: #222;
-  height: 2px;
-}
-
-/* bottom_banner */
-.social_block img {
-  width: 2rem;
-}
-
-.hero .social_block .social_icon {
-  padding: 5px;
-}
-
-.input-group:after {
-  display: block;
-  content: '';
-  background: #999;
   height: 2px;
 }
 
@@ -413,6 +397,17 @@ body h3 {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+/* media queries */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .banner_pic {
+    max-height: 250px;
+  }
+  .dod_img {
+    min-height: 500px;
+    width: auto;
+  }
 }
 
 #color-row .col-sm-4 p {
