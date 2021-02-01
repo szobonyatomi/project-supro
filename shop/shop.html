@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="../src/css/style.css" id="" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../src/css/style.css" id="" />
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-    <link href="../src/css/_shop.css"/>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
 		<title>Supro - Shop</title>
 	</head>
@@ -38,9 +41,9 @@
 
                   <div class="categories-menu">
                     <ul>
-                      <li class="li"><p>Min £9.00</p></li>
-                      <li class="li"><p>Max £9.00</p></li>
-                      <li class="li"><p>Remove all filter</p></li>
+                      <li class="li"><p class="text-secondary">Min £9.00</p></li>
+                      <li class="li"><p class="text-secondary">Max £9.00</p></li>
+                      <li class="li"><p class="text-secondary">Remove all filter</p></li>
                     </ul>
                   </div>
                 </div>
@@ -50,15 +53,15 @@
 
                   <div class="categories-menu">
                     <ul>
-                      <li class="li"><a href="#">Bags</a></li>
-                      <li class="li"><a href="#">Clothing</a></li>
-                      <li class="li"><a href="#">Hats & Gloves</a></li>
-                      <li class="li"><a href="#">Men</a></li>
-                      <li class="li"><a href="#">More Accesories</a></li>
-                      <li class="li"><a href="#">Shoes</a></li>
-                      <li class="li"><a href="#">T-Shirt</a></li>
-                      <li class="li"><a href="#">Wallets & Cases</a></li>
-                      <li class="li"><a href="#">Women</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Bags</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Clothing</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Hats & Gloves</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Men</a></li>
+                      <li class="li"><a href="#" class="text-secondary">More Accesories</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Shoes</a></li>
+                      <li class="li"><a href="#" class="text-secondary">T-Shirt</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Wallets & Cases</a></li>
+                      <li class="li"><a href="#" class="text-secondary">Women</a></li>
                     </ul>
                   </div>
                 </div>
@@ -201,54 +204,26 @@
             <div class="col-12 col-md-8 col-lg-9">
               <div class="shop grid product area">
                 <div class="row">
-                  <div class="col-12">
-                    <nav class="navbar navbar-expand-lg">
-                      <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Shop</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">
-                                <p><strong>25</strong> Products Found</p>
-                              </a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Filter
-                              </a>
-                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Sortby
-                              </a>
-                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Default</a></li>
-                                <li><a class="dropdown-item" href="#">Price</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Name</a></li>
-                              </ul>
-                            </li>
-
-                            <li class="nav-item">
-
-                            </li>
-                          </ul>
+                  <div class="col-12" id="content-product">
+                    <div class="row" id="shop-head">
+                      <div class="col-4">
+                        <div class="grid-shop">
+                          <h2>Shop</h2>
+                          <p><span class="shop-home">Home <i class="fas fa-circle"></i></span> Shop </p>
                         </div>
-
                       </div>
-                    </nav>
+
+                      <div class="col-8">
+                        <div class="grid-products">
+                          <p class="products">25 <span class="product-content">Products Found</span><span class="product-text">
+                              Filter <i class="fas fa-chevron-down"></i></span>
+                              <span class="text">Sortby <span class="product-content1">Default</span> <i
+                                      class="fas fa-chevron-down"></i></span>
+                              <i class="fas fa-th"></i> <i class="fas fa-list-ul"></i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
