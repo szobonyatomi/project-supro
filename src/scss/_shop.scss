@@ -84,11 +84,11 @@ p .shop-home {
 }
 
 .dot {
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    display: inline-block;
-  }
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 .dot-black {
   @extend .dot;
@@ -120,12 +120,12 @@ p .shop-home {
   background-color: rgb(156, 6, 6);
 }
 
-  .single-product-wrapper {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 60px;
-    overflow: hidden;
-    background-color: #ffffff;
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
 #product-items {
