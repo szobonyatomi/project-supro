@@ -181,9 +181,11 @@
         <div class="row">
             <div class="col-lg-3 col-md-5 col-sm-10">
                 <div class="card rounded-0">
-                    <div class="overlay-img"></div>
                     <img src="/product/img/aviator-glasses.jpg" class="card-img-top w-100"
-                        alt="Related product picture">
+                        alt="Related product picture"  
+                        onmouseover="this.src='/product/img/related-product-01-h.jpg'";
+                        onmouseout="this.src='/product/img/aviator-glasses.jpg'";
+                    >
                     <div class="card-body">
                         <h5 class="card-title small pt-3"><strong>Aviator sunglasses</strong></h5>
                         <i class="fas fa-star text-warning"></i>
@@ -245,7 +247,7 @@
     </div>
     <!-- Related products Section  -->
     </div>
-
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
