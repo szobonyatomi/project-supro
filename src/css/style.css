@@ -291,6 +291,17 @@ body h3 {
   height: 2px;
 }
 
+.btn-outline-info {
+  border-color: transparent;
+}
+
+.btn-outline-info::after {
+  display: block;
+  content: '';
+  background: white;
+  height: 2px;
+}
+
 /* Slider */
 .slick-slide {
   margin: 0px;
