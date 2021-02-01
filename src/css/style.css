@@ -1,41 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
-body {
-  font-size: small; }
+@media (max-width: 1000px) {
+  #txt-bg {
+    order: 2; }
+  #img-bg {
+    order: 1; } }
 
-/*#txt-img {
-    width: 75%;
-    height: auto;
-    font-size: 10px;
-    margin-top: -39px;
-    
-    h5 {
-        font-size:20px;
-        margin-bottom: -2px;
-    }
-}*/
+@media (min-width: 1000px) {
+  #txt-img {
+    position: relative;
+    margin-top: -22%; } }
+
+@media (min-width: 1230px) {
+  #txt-img {
+    position: relative;
+    margin-top: -18%; } }
+
+@media (min-width: 1460px) {
+  #txt-img {
+    position: relative;
+    margin-top: -15%; } }
+
+@media (min-width: 1700px) {
+  #txt-img {
+    position: relative;
+    margin-top: -12%; } }
+
 #date {
   padding-top: 15px; }
 
 #imgFond {
-  z-index: 1; }
+  order: 1; }
 
 #play {
   position: absolute;
-  z-index: 2;
+  order: 2;
   top: 60%;
-  right: 36%; }
+  right: 46%; }
 
 .txt-icon {
   margin-right: 25px;
   margin-left: 10px; }
 
-#txt-img h6 {
-  font-size: 12px;
-  margin-bottom: 0px; }
-
-#txt-img p {
-  font-size: 10px; }
+#txt-img {
+  height: 25%;
+  width: 80%; }
+  #txt-img h6 {
+    font-size: 14px;
+    font-style: bold;
+    margin-top: 15px; }
+  #txt-img p {
+    font-size: 12px;
+    margin-bottom: 5px; }
 
 #icon_nav {
   font-size: 10px; }
@@ -318,6 +334,11 @@ body h3 {
 .obligatoire {
   color: red; }
 
+/*@media (min-width: 800px){
+    #adress {
+        margin-left: -1.5rem;
+    }
+}*/
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
