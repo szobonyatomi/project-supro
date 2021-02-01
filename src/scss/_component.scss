@@ -30,7 +30,7 @@ ul.carousel-indicators li.active {
   border: 1px solid $primary;
 }
 
-.carousel-button .active {
+li.carousel-button:active {
   color: $primary;
 }
 
@@ -192,14 +192,34 @@ body h3 {
   display: none;
 }
 
+/* footer */
+.form-select {
+  border: none;
+  padding: 0.5rem;
+}
 /* media queries */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  .banner_pic {
-    max-height: 250px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .carousel .item img {
+    max-height: 1024px;
+    min-width: auto;
   }
-  .dod_img {
-    min-height: 500px;
+
+  #countdown h4 {
+    font-size: smaller;
+  }
+
+  #countdown p {
+    font-size: smaller;
+    line-height: 0;
+  }
+
+  .dod {
+    height: 350px;
+  }
+
+  .dod img {
+    height: 350px;
     width: auto;
   }
 }

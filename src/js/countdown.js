@@ -27,18 +27,18 @@ var timing = setInterval(function () {
   var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
   document.getElementById('countdown').innerHTML =
-    '<div class="py-3 px-4 bg-white text-center"> <h4> -' +
+    '<div class=" p-2 py-lg-3 px-lg-4 bg-white text-center"> <h4> -' +
     days +
-    '</h4>days</div>' +
-    '<div class="py-3 px-4 bg-white text-center"> <h4> -' +
+    '</h4><p>days</p></div>' +
+    '<div class="  p-2 py-lg-3 px-lg-4 bg-white text-center"> <h4> -' +
     hours +
-    '</h4>hours</div>' +
-    '<div class="py-3 px-4 bg-white text-center"> <h4> -' +
+    '</h4><p>hours</p></div>' +
+    '<div class=" p-2 py-lg-3 px-lg-4 bg-white text-center"> <h4> -' +
     minutes +
-    '</h4>minutes</div>' +
-    '<div class="py-3 px-4 bg-white text-center"> <h4> -' +
+    '</h4><p>minutes</p></div>' +
+    '<div class=" p-2 py-lg-3 px-lg-4 bg-white text-center"> <h4> -' +
     seconds +
-    '</h4>seconds</div>';
+    '</h4><p>seconds</p></div>';
 
   if (timeLeft <= 0) {
     clearInterval(timing);

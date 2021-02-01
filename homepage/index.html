@@ -33,6 +33,8 @@
     <title>Supro</title>
   </head>
   <body>
+    <!-- menubar -->
+
     <div
       id="menubar"
       class="container-fluid border border-warning position-absolute"
@@ -331,9 +333,7 @@
       >
         <div class="col-12 col-md-11 col-lg-5 px-md-0 border border-success">
           <div class="card-body card-img-overlay p-0">
-            <h1 class="card-title pt-5 text-l">
-              Glitter<br />Decorated<br />Shouse
-            </h1>
+            <h1 class="card-title pt-5">Glitter<br />Decorated<br />Shouse</h1>
             <p class="p-0 text-secondary">$89.90</p>
             <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
           </div>
@@ -344,12 +344,12 @@
         <div class="col-12 col-md-11 col-lg-3 px-md-0 border border-warning">
           <div class="row m-0">
             <div
-              class="col-lg-6 order-last pt-lg-3 px-0 border border-warning"
+              class="col-6 order-last pt-lg-3 px-0 border border-warning"
               style="border: none"
             >
               <img
                 src="./assets/bsl4.jpg"
-                class="card-img-top w-50 pt-lg-5"
+                class="card-img-top w-100 pt-lg-5"
                 alt="..."
               />
               <div class="card-body">
@@ -499,55 +499,84 @@
     <!-- deal of the day -->
 
     <div id="deal_of_the_day" class="container-fluid px-0">
-      <div class="card bg-dark text-white">
-        <img
-          class="card-img dod_img"
-          src="./assets/deals_image.jpg"
-          alt="Card image"
-        />
+      <div class="col-12 px-0 dod">
+        <img class="w-100 img-fluid" src="./assets/deals_image.jpg" alt="" />
 
         <div
-          class="row card-img-overlay justify-content-center align-content-center p-0 w-100"
+          class="row card-img-overlay justify-content-center align-content-center p-0 m-0 border border-warning"
         >
-          <div class="col-8 px-0 dod_text">
-            <div class="col-5">
-              <p class="text-secondary">Deal of the day</p>
-              <h3 class="text-primary">Hobo Shopper Bag</h3>
+          <div
+            class="col-sm-8 col-md-10 col-lg-8 px-3 px-md-0 border border-warning"
+          >
+            <p class="text-secondary">Deal of the day</p>
+            <h3 class="text-primary">Hobo Shopper Bag</h3>
 
-              <div class="d-inline-flex p-0 m-0">
-                <p class="text-secondary" style="text-decoration: line-through">
-                  $79.00
-                </p>
-                <p class="text-primary">$39.00</p>
-              </div>
-              <br />
-              <span class="badge bg-danger">Save 50%</span>
-              <div>
-                <div
-                  class="text-primary d-inline-flex my-5"
-                  id="countdown"
-                ></div>
-              </div>
-
-              <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
+            <div class="d-inline-flex p-0 m-0">
+              <p class="text-secondary" style="text-decoration: line-through">
+                $79.00
+              </p>
+              <p class="text-primary">$39.00</p>
             </div>
+            <br />
+            <span class="badge bg-danger text-white">Save 50%</span>
+            <div>
+              <div
+                class="text-primary d-inline-flex my-3 border border-warning"
+                id="countdown"
+              ></div>
+            </div>
+
+            <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
           </div>
         </div>
       </div>
+
+      <!-- <div class="row">
+        <div class="col-12 card p-0 banner_pic">
+          <img src="./assets/deals_image.jpg" alt="" class="w-100" />
+          <div class="row card-img-overlay align-content-center p-0 m-0">
+            <div class="col-11 col-md-6">
+              <p class="text-secondary">Deal of the day</p>
+                <h3 class="text-primary">Hobo Shopper Bag</h3>
+
+                <div class="d-inline-flex p-0 m-0">
+                  <p
+                    class="text-secondary"
+                    style="text-decoration: line-through"
+                  >
+                    $79.00
+                  </p>
+                  <p class="text-primary">$39.00</p>
+                </div>
+                <br />
+                <span class="badge bg-danger">Save 50%</span>
+                <div>
+                  <div
+                    class="text-primary d-inline-flex my-3 border border-warning"
+                    id="countdown"
+                  ></div>
+            </div>
+          </div>
+        </div>
+      </div>-->
     </div>
 
     <!-- latest news -->
 
     <div id="latest_news" class="container-fluid pt-5">
-      <div class="row d-flex justify-content-center border border-warning">
-        <div class="col-8 col-lg-5 px-0 pt-3 border border-warning">
+      <div
+        class="row d-flex justify-content-start justify-content-md-center border border-warning"
+      >
+        <div
+          class="col-12 col-md-8 col-lg-5 px-3 px-md-0 pt-3 border border-warning"
+        >
           <h2 class="mb-0">Latest News</h2>
           <p class="text-secondary">
             Our recent articles about fashion ideas & products
           </p>
         </div>
         <div
-          class="col-2 offset-1 d-flex align-items-center justify-content-end"
+          class="col-4 col-md-2 offset-md-1 d-flex align-items-center justify-content-center justify-content-md-end pr-md-0 mb-3"
         >
           <a href="#" class="btn btn-outline p-0">SEE ALL NEWS</a>
         </div>
@@ -667,52 +696,75 @@
 
     <!-- footer  -->
     <div class="container-fluid px-0" id="footer">
-      <div class="row justify-content-center mb-5">
-        <div class="col-8 d-flex justify-content-between px-0">
-          <div class="col-2 px-0">
-            <h6 class="mb-4">HELP & INFORMATION</h6>
-            <ul style="list-style-type: none">
-              <li><a href="#" class="text-secondary">Track Order</a></li>
-              <li><a href="#" class="text-secondary">Delivery & Returns</a></li>
-              <li><a href="#" class="text-secondary">Premier Delivery</a></li>
-              <li><a href="#" class="text-secondary">FAQs</a></li>
-            </ul>
+      <div
+        class="nav col-12 col-lg-8 justify-content-between m-0 mx-lg-auto px-lg-0 px-0 px-md-3"
+      >
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">HELP & INFORMATION</h6>
+          <ul>
+            <li><a href="#" class="text-secondary">Track Order</a></li>
+            <li><a href="#" class="text-secondary">Delivery & Returns</a></li>
+            <li><a href="#" class="text-secondary">Premier Delivery</a></li>
+            <li><a href="#" class="text-secondary">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">ABOUT SUPRO</h6>
+          <ul>
+            <li>
+              <a href="../about/about.html" class="text-secondary">About us</a>
+            </li>
+            <li><a href="#" class="text-secondary">Carrers</a></li>
+            <li><a href="#" class="text-secondary">Coporate</a></li>
+            <li><a href="#" class="text-secondary">Investors</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">ONLINE SHOP</h6>
+          <ul>
+            <li><a href="#" class="text-secondary">Shoes</a></li>
+            <li><a href="#" class="text-secondary">Bags</a></li>
+            <li><a href="#" class="text-secondary">Wallets</a></li>
+            <li><a href="#" class="text-secondary">Belts</a></li>
+          </ul>
+        </div>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">LANGUAGE</h6>
+          <select
+            class="form-select text-secondary"
+            aria-label="Default select example"
+          >
+            <option selected value="1">English</option>
+            <option value="2">Francais</option>
+            <option value="3">Dutch</option>
+          </select>
+        </div>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">CURRENCY</h6>
+          <select
+            class="form-select text-secondary"
+            aria-label="Default select example"
+          >
+            <option selected value="1">USD</option>
+            <option value="2">EUR</option>
+            <option value="3">GBP</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content-center p-0 m-0 text-secondary">
+        <div
+          class="col-12 col-lg-8 d-md-flex px-lg-0 text-center text-md-right border-top pt-3"
+        >
+          <div class="col-12 col-md-8 px-0 m-0 text-md-left">
+            <i class="far fa-copyright"></i>
+            <span><b>Supro</b></span> All rightsd reseved 2019
           </div>
-          <div class="col-2">
-            <h6 class="mb-4">ABOUT SUPRO</h6>
-            <ul>
-              <li>
-                <a href="../about/about.html" class="text-secondary"
-                  >About us</a
-                >
-              </li>
-              <li><a href="#" class="text-secondary">Careers</a></li>
-              <li><a href="#" class="text-secondary">Coporate</a></li>
-              <li><a href="#" class="text-secondary">Investors</a></li>
-            </ul>
+          <div class="col-12 col-md-2 p-0 m-0">
+            <p>Privacy Policy</p>
           </div>
-          <div class="col-2">
-            <h6 class="mb-4">ONLINE SHOP</h6>
-            <ul>
-              <li><a href="#" class="text-secondary">Shoes</a></li>
-              <li><a href="#" class="text-secondary">Bags</a></li>
-              <li><a href="#" class="text-secondary">Wallets</a></li>
-              <li><a href="#" class="text-secondary">Belts</a></li>
-            </ul>
-          </div>
-          <div class="col-2">
-            <h6 class="mb-4">LANGUAGE</h6>
-            <select
-              class="form-select text-secondary"
-              aria-label="Default select example"
-            >
-              <option selected value="1">English</option>
-              <option value="2">Francais</option>
-              <option value="3">Dutch</option>
-            </select>
-          </div>
-          <div class="col-2">
-            <h6 class="mb-4">CURRENCY</h6>
+          <div class="col-12 col-md-2 p-0 m-0">
+            <p>Terms of use</p>
           </div>
         </div>
       </div>
