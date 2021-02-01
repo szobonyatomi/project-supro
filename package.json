@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
 
     "test": "echo \"Error: no test specified\" && exit 1",
-=======
->>>>>>> Tomi
     "scss": "node-sass --watch src/scss --output src/css --source-map true"
   },
  

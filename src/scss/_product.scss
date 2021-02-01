@@ -1,3 +1,5 @@
+$breadcrumb-divider: url(/product/img/divider.svg);
+
 .review-star-active {
     color: #FAA42D;
 }
@@ -5,9 +7,6 @@
 .review-star {
     color: $secondary;
 }
-
-
-$breadcrumb-divider: url(/homepage/assets/circle-fill.svg);
 
 .navbar .product {
     font-weight: bold;
@@ -18,3 +17,17 @@ $breadcrumb-divider: url(/homepage/assets/circle-fill.svg);
 list-style: disc;
 }
 
+.review-notification{
+    bottom: 5px;
+    position: relative;
+    font-weight: bold;
+    font-size:12px;
+}
+
+.single-product{
+    opacity: 0.5;
+}
+
+.single-product:hover{
+    opacity: 1;
+}

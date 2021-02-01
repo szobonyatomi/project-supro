@@ -11238,6 +11238,9 @@ button.bg-dark:focus {
 .font-italic {
   font-style: italic !important;
 }
+ul.carousel-indicators li.active {
+  background: #222;
+  border: 1px solid #222; }
 
 .text-white {
   color: #fff !important;
@@ -11250,6 +11253,9 @@ button.bg-dark:focus {
 a.text-primary:hover, a.text-primary:focus {
   color: black !important;
 }
+body h3 {
+  font-weight: 600;
+  font-size: 1.6rem; }
 
 .text-secondary {
   color: #999 !important;
@@ -11262,6 +11268,10 @@ a.text-secondary:hover, a.text-secondary:focus {
 .text-success {
   color: #28a745 !important;
 }
+.btn-outline {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none; }
 
 a.text-success:hover, a.text-success:focus {
   color: #19692c !important;
@@ -11274,6 +11284,9 @@ a.text-success:hover, a.text-success:focus {
 a.text-info:hover, a.text-info:focus {
   color: #d9d9d9 !important;
 }
+/* bottom_banner */
+.social_block img {
+  width: 2rem; }
 
 .text-warning {
   color: #f68773 !important;
@@ -11286,6 +11299,11 @@ a.text-warning:hover, a.text-warning:focus {
 .text-danger {
   color: #dc3545 !important;
 }
+.dot, .dot-black, .dot-blue, .dot-gold, .dot-nude, .dot-orange, .dot-red {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block; }
 
 a.text-danger:hover, a.text-danger:focus {
   color: #a71d2a !important;
@@ -11331,9 +11349,22 @@ a.text-dark:hover, a.text-dark:focus {
   border: 0;
 }
 
-.text-decoration-none {
-  text-decoration: none !important;
-}
+.dot, .dot-black, .dot-blue, .dot-gold, .dot-nude, .dot-orange, .dot-red {
+  height: 25px;
+  width: 25px;
+  background-color: #270606;
+  border-radius: 60%;
+  display: inline-block; }
+
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: #ffffff; }
+
+.review-star-active {
+  color: #FAA42D; }
 
 .text-break {
   word-break: break-word !important;
@@ -11431,6 +11462,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+.review-notification {
+  bottom: 5px;
+  position: relative;
+  font-weight: bold;
+  font-size: 12px; }
+
+.single-product {
+  opacity: 0.5; }
+
+.single-product:hover {
+  opacity: 1; }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -14937,7 +14979,7 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
-    content: url(/homepage/assets/circle-fill.svg); }
+    content: url(/product/img/divider.svg); }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
