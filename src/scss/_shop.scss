@@ -46,6 +46,10 @@
     color: #999; }
 }
 
+.widget-title {
+  margin-bottom: 2rem;
+}
+
 .grid-shop {
   display: -ms-grid;
   display: grid;
@@ -54,7 +58,6 @@
   -ms-grid-row: 2;
   grid-row: 2;
   padding-left: 1em; 
-
 }
 
 p .shop-home {
@@ -69,8 +72,10 @@ p .shop-home {
   bottom: 1px; 
 }
 
-#color-row {
-  
+.categories-menu {
+  li {
+    font-size: smaller;
+  }
 }
 
 .dot {
@@ -121,7 +126,7 @@ p .shop-home {
 #product-items {
   .col-sm-6 {
     h6 {
-      font-size: smaller;
+      font-size: larger;
     }
 
     small {

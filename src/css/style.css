@@ -280,6 +280,9 @@ body h3 {
     font-size: 1.1rem;
     color: #999; }
 
+.widget-title {
+  margin-bottom: 2rem; }
+
 .grid-shop {
   display: -ms-grid;
   display: grid;
@@ -298,6 +301,9 @@ p .shop-home {
   font-size: .3rem;
   position: relative;
   bottom: 1px; }
+
+.categories-menu li {
+  font-size: smaller; }
 
 .dot, .dot-black, .dot-blue, .dot-gold, .dot-nude, .dot-orange, .dot-red {
   height: 12px;
@@ -331,7 +337,7 @@ p .shop-home {
   background-color: #ffffff; }
 
 #product-items .col-sm-6 h6 {
-  font-size: smaller; }
+  font-size: larger; }
 
 #product-items .col-sm-6 small {
   font-size: smaller; }
