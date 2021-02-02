@@ -1,5 +1,6 @@
 body{
     font-size: small;
+}
 
 
 @media (max-width: 1000px ){
@@ -13,7 +14,14 @@ body{
    
 
 }
+/*
+@media (min-width: 580px) and (max-width: 744px)  {
+    #txt-bg {
+     text-align: center;
 
+    }
+}
+*/
 @media (min-width: 1000px){
     #txt-img {
         position: relative;
@@ -49,25 +57,22 @@ body{
   
     order: 1;
 }
+
 #play {
     position: absolute;
     order: 2;
 
     top: 60%;
     right: 46%;
-   
-
-  top: 60%;
-  right: 36%;
 }
+
 .txt-icon {
-  margin-right: 25px;
-  margin-left: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
 }
 
 #txt-img{
-   
-    
+
     height: 25%;
     width: 80%;
     h6{
