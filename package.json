@@ -4,14 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch src/scss --output src/css --source-map true"
   },
- 
-  
-  "repository": { 
-
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/szobonyatomi/project-supro.git"
   },
