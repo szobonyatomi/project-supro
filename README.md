@@ -12,5 +12,5 @@
 
 
 
-[Click to open our version}(https://szobonyatomi.github.io/project-supro/)
+[Click to open our version](https://szobonyatomi.github.io/project-supro/)
 
