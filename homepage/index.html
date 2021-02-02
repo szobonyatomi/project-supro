@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../src/css/style.css" id="" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -23,203 +24,209 @@
     ></script>
 
     <script
-      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
       type="text/javascript"
     ></script>
     <script src="../src/js/slick.js"></script>
     <script src="../src/js/slider.js"></script>
     <script src="../src/js/countdown.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <title>Supro</title>
   </head>
   <body>
-    <!-- menubar -->
-
-    <div
-      id="menubar"
-      class="container-fluid border border-warning position-absolute"
-    >
+    <header>
       <nav
-        class="navbar navbar-expand-lg border border-warning sticky-top navbar-light bg-transparent"
+        class="my-nav navbar navbar-light navbar-expand-lg sticky-top bg-transparent position-absolute px-0 px-md-2"
       >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/logo_supro.svg" alt="" />
-          </a>
+        <div class="container-fluid m-0 mx-md-3 px-0 justify-content-center">
+          <div class="row col-12 px-0 align-items-center">
+            <a class="navbar-brand col-1 px-sm-0 px-2" href="#">
+              <img src="./assets/logo_supro.svg" alt="" />
+            </a>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav flex-grow-1">
-              <li class="nav-item px-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="../shop/shop.html">shop</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="../product/product.html"
-                  >collection</a
-                >
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#">pages</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#">blog</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="../contact/contact.html">contact</a>
-              </li>
-            </ul>
+            <div class="col-4 collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav pr-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../shop/shop.htmls">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../product/single-product.html"
+                    >Collection</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../contact/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-4 col-lg-2 input-group bg-white ml-auto"
+              style="border-radius: 9000px"
+            >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Searching..."
+                aria-label="search"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="fa fa-search form-control-feedback bg-white"
+                type="button"
+                id="button-addon2"
+              ></button>
+            </div>
+
+            <div class="col-4 col-lg-2 pr-0">
+              <ul
+                class="navbar nav_right my-0 py-0 pr-0 pr-sm-0 pr-md-2 pl-0 pl-md-2text-center"
+              >
+                <li>
+                  <a href=""><i class="far fa-user text-secondary"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="far fa-heart text-secondary"></i></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fas fa-shopping-cart text-secondary"></i
+                  ></a>
+                </li>
+                <li>
+                  <button
+                    class="navbar-toggler d-block px-0 text-secondary"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              style="border-radius: 9999px"
-            />
-          </form>
-          <div class="navbar navbar-expand">
-            <ul class="navbar-nav">
-              <li>
-                <img
-                  src="./assets/user.svg"
-                  alt=""
-                  style="width: 1.2rem; margin: 0 0.5rem"
-                />
-              </li>
-              <li>
-                <img
-                  src="./assets/heart.svg"
-                  alt=""
-                  style="width: 1.2rem; margin: 0 0.5rem"
-                />
-              </li>
-              <li>
-                <img
-                  src="./assets/shopping-cart.svg"
-                  alt=""
-                  style="width: 1.2rem; margin: 0 0.5rem"
-                />
-              </li>
-            </ul>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"> </span>
-          </button>
         </div>
       </nav>
-    </div>
-
-    <!-- carousel -->
-
-    <div id="carousel" class="container-fluid p-0 border border-warning">
+      <!-- carousel -->
       <div
-        id="carouselExampleDark"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
+        id="carouselExampleIndicators"
+        class="carousel slide my-carousel my-carousel"
+        data-ride="carousel"
       >
-        <ul class="carousel-indicators">
+        <ol class="carousel-indicators">
           <li
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
             class="active"
           ></li>
-          <li
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            class="inactive"
-          ></li>
-          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="assets/sl1-1_1.jpg" class="d-block w-100" alt="..." />
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="background-image: url('./assets/sl1-1_1.jpg')"
+          >
             <div
-              class="carousel-caption"
-              style="position: absolute; top: 50%; transform: translateY(-50%)"
+              class="row card-img-overlay justify-content-center align-items-center text-center text-white"
             >
-              <h2>Next SS Preview<br />Woman Shoes</h2>
-              <a href="#" class="btn btn-outline-info p-0">discover more</a>
+              <div class="col-10">
+                <h2>Next SS Preview<br />Woman Shoes</h2>
+                <a href="#" class="btn btn-outline-info p-0">DISCOVER MORE</a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="assets/sl2-1.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-item"
+            style="background-image: url('./assets/sl2-1.jpg')"
+          >
             <div
-              class="carousel-caption"
-              style="position: absolute; top: 50%; transform: translateY(-50%)"
+              class="row card-img-overlay justify-content-center align-items-center text-center text-white"
             >
-              <h2>Pink<br />Sneaker</h2>
-              <a href="#" class="btn btn-outline p-0 btn-outline-info"
-                >discover more</a
-              >
+              <div class="col-10">
+                <h2>Pink<br />Sneakers</h2>
+                <a href="#" class="btn btn-outline-info p-0">DISCOVER MORE</a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="assets/sl3-1.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-item"
+            style="background-image: url('./assets/sl3-1.jpg')"
+          >
             <div
-              class="carousel-caption"
-              style="position: absolute; top: 60%; transform: translateY(-50%)"
+              class="row card-img-overlay justify-content-center align-items-center text-center text-white"
             >
-              <h2>Winter <br />Collection</h2>
-              <a href="#" class="btn btn-outline p-0 btn-outline-info"
-                >discover more</a
-              >
+              <div class="col-10">
+                <h2>Winter<br />Collection</h2>
+                <a href="#" class="btn btn-outline-info p-0">DISCOVER MORE</a>
+              </div>
             </div>
           </div>
         </div>
+
+        <!-- carousel overlay -->
+
         <div
-          class="row card-img-overlay m-0 align-content-center justify-content-between border border-success"
-          style="z-index: 100"
+          class="row card-img-overlay m-0 align-content-end align-content-lg-center justify-content-center justify-content-lg-between border border-success"
           id="overlay"
         >
-          <div class="col-1 p-0 ml-4 border border-white">
-            <ul class="m-0">
-              <li>
+          <!-- social icons -->
+
+          <div
+            class="col-8 col-lg-1 p-0 ml-lg-4 text-lg-left text-center social_icons"
+          >
+            <ul class="m-lg-0 d-inline-flex d-lg-block">
+              <li id="twitter">
                 <a href="http://www.twitter.com"
-                  ><i class="fab fa-twitter fa-2x text-secondary py-3"></i
+                  ><i
+                    class="fab fa-twitter fa-2x text-secondary py-3 mx-2 mx-l-0"
+                  ></i
                 ></a>
               </li>
               <li>
                 <a href="#"
-                  ><i class="fab fa-facebook-f fa-2x text-secondary py-3"></i
+                  ><i
+                    class="fab fa-facebook-f fa-2x text-secondary py-3 mx-2 mx-l-0"
+                  ></i
                 ></a>
               </li>
               <li>
                 <a href="#"
-                  ><i class="fab fa-google-plus-g fa-2x text-secondary py-3"></i
+                  ><i
+                    class="fab fa-google-plus-g fa-2x text-secondary py-3 mx-2 mx-l-0"
+                  ></i
                 ></a>
               </li>
               <li>
                 <a href="#"
-                  ><i class="fab fa-pinterest fa-2x text-secondary py-3"></i
+                  ><i
+                    class="fab fa-pinterest fa-2x text-secondary py-3 mx-2 mx-l-0"
+                  ></i
                 ></a>
               </li>
             </ul>
           </div>
-          <ul class="carousel-buttons">
-            <li
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-            ></li>
-            <li
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              class="inactive"
-            ></li>
+
+          <!-- carousel overlay gtext/button-->
+
           <div
             id="carouselExampleDark"
-            class="carousel carousel-slide mr-4 text-right text-secondary"
+            class="carousel carousel-slide mr-4 text-right text-secondary d-none d-lg-block"
             data-bs-ride="carousel"
           >
             <ul class="overlay_text carousel-button">
@@ -251,12 +258,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <!-- banner -->
 
-    <div id="bottom_banner" class="container-fluid border border-warning">
-      <div class="row border border-warning">
+    <div id="bottom_banner" class="container-fluid">
+      <div class="row">
         <div class="col-12 col-lg-4 card p-0 banner_pic">
           <img src="./assets/banner_h1_1.jpg" alt="" class="w-100" />
           <div class="row card-img-overlay align-content-center p-0 m-0">
@@ -303,19 +310,15 @@
     <!-- top sellers -->
 
     <div id="top_sellers" class="container-fluid pt-5">
-      <div class="row d-flex justify-content-center border border-warning">
-        <div
-          class="col-12 col-md-11 col-lg-4 px-md-0 pt-3 border border-warning"
-        >
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-11 col-lg-4 px-md-0 pt-3">
           <h2 class="mb-0">Top Sellers</h2>
           <p class="text-secondary">Browse the huge variety of our products</p>
         </div>
         <div class="col-11 col-lg-4"></div>
       </div>
-      <div
-        class="row d-flex mb-5 px-0 justify-content-center border border-warning"
-      >
-        <div class="col-12 col-md-11 col-lg-3 px-md-0 border border-warning">
+      <div class="row d-flex mb-5 px-0 justify-content-center">
+        <div class="col-12 col-md-11 col-lg-3 px-md-0">
           <div class="card pt-lg-3">
             <img
               src="./assets/bsl1.jpg"
@@ -330,7 +333,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-11 col-lg-5 px-md-0 border border-success">
+        <div class="col-12 col-md-11 col-lg-5 px-md-0">
           <div class="card-body card-img-overlay p-0">
             <h1 class="card-title pt-5 text-l">
               Flower<br />Design<br />Blouse
@@ -343,10 +346,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="row d-flex my-5 p-0 justify-content-center border border-warning"
-      >
-        <div class="col-12 col-md-11 col-lg-5 px-md-0 border border-success">
+      <div class="row d-flex my-5 p-0 justify-content-center">
+        <div class="col-12 col-md-11 col-lg-5 px-md-0">
           <div class="card-img-overlay p-0">
             <h1 class="card-title pt-5">Glitter<br />Decorated<br />Shouse</h1>
             <p class="p-0 text-secondary">$89.90</p>
@@ -356,12 +357,9 @@
             <img src="./assets/bsl3.jpg" class="w-75 end-0" alt="..." />
           </div>
         </div>
-        <div class="col-12 col-md-11 col-lg-3 px-md-0 border border-warning">
+        <div class="col-12 col-md-11 col-lg-3 px-md-0">
           <div class="row m-0">
-            <div
-              class="col-6 order-last pt-lg-3 px-0 border border-warning"
-              style="border: none"
-            >
+            <div class="col-6 order-last pt-lg-3 px-0">
               <img
                 src="./assets/bsl4.jpg"
                 class="card-img-top w-100 pt-lg-5"
@@ -384,11 +382,9 @@
 
     <!-- new arrival -->
 
-    <div id="new_arrival" class="container-fluid border border-warning">
-      <div class="row d-flex justify-content-center border border-warning">
-        <div
-          class="col-12 col-md-11 col-lg-4 px-md-0 pt-3 border border-warning"
-        >
+    <div id="new_arrival" class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-11 col-lg-4 px-md-0 pt-3">
           <h2 class="mb-0">New Arrival</h2>
           <p class="text-secondary">Browse the huge variety of our products</p>
         </div>
@@ -513,16 +509,14 @@
 
     <!-- deal of the day -->
 
-    <div id="deal_of_the_day" class="container-fluid px-0">
-      <div class="col-12 px-0 dod">
-        <img class="w-100 img-fluid" src="./assets/deals_image.jpg" alt="" />
+    <div id="deal_of_the_day" class="container-fluid dod px-0">
+      <div class="col-12 px-0 overflow-hidden dod">
+        <img class="w-100" src="./assets/deals_image.jpg" alt="" />
 
         <div
-          class="row card-img-overlay justify-content-center align-content-center p-0 m-0 border border-warning"
+          class="row card-img-overlay justify-content-center align-content-center p-0 m-0"
         >
-          <div
-            class="col-sm-8 col-md-10 col-lg-8 px-3 px-md-0 border border-warning"
-          >
+          <div class="col-sm-6 col-md-10 col-lg-8 px-3 px-md-0">
             <p class="text-secondary">Deal of the day</p>
             <h3 class="text-primary">Hobo Shopper Bag</h3>
 
@@ -535,10 +529,7 @@
             <br />
             <span class="badge bg-danger text-white">Save 50%</span>
             <div>
-              <div
-                class="text-primary d-inline-flex my-3 border border-warning"
-                id="countdown"
-              ></div>
+              <div class="text-primary d-inline-flex my-3" id="countdown"></div>
             </div>
 
             <a href="#" class="btn btn-outline p-0">SHOP NOW</a>
@@ -579,12 +570,8 @@
     <!-- latest news -->
 
     <div id="latest_news" class="container-fluid pt-5">
-      <div
-        class="row d-flex justify-content-start justify-content-md-center border border-warning"
-      >
-        <div
-          class="col-12 col-md-8 col-lg-5 px-3 px-md-0 pt-3 border border-warning"
-        >
+      <div class="row d-flex justify-content-start justify-content-md-center">
+        <div class="col-12 col-md-8 col-lg-5 px-3 px-md-0 pt-3">
           <h2 class="mb-0">Latest News</h2>
           <p class="text-secondary">
             Our recent articles about fashion ideas & products
@@ -596,7 +583,7 @@
           <a href="#" class="btn btn-outline p-0">SEE ALL NEWS</a>
         </div>
       </div>
-      <div class="row d-flex justify-content-center border border-warning">
+      <div class="row d-flex justify-content-center">
         <div class="col-11 col-lg-8 px-0 pb-5">
           <diw class="row">
             <div class="card col-12 col-lg-4 h-100">
@@ -664,29 +651,28 @@
     <!-- keep conected -->
 
     <div id="keep_connected" class="container-fluid pt-5 mb-5">
-      <div class="row d-flex justify-content-center border border-warning">
-        <div
-          class="col-12 col-md-6 col-lg-3 px-md-0 pt-3 border border-warning"
-        >
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4 px-md-0 pt-3">
           <h2 class="mb-0">Keep Connected</h2>
           <p class="text-secondary">
             Get updates by subscribe our weekly newsletter
           </p>
         </div>
         <div
-          class="col-12 col-md-5 col-lg-3 d-flex align-items-center justify-content-end"
+          class="col-12 col-md-5 col-lg-4 d-flex align-items-center justify-content-end pr-md-0"
         >
-          <div class="input-group ml-5" style="border-bottom: 1px solid">
+          <div class="input-group ml-0 ml-md-5">
+            <i class="far fa-envelope my-auto text-secondary"></i>
             <input
               type="text "
-              class="form-control"
+              class="form-control text-secondary"
               placeholder="Email Adress"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
               style="border: none"
             />
-            <button class="btn btn-outline" type="button" id="button-addon2">
-              Subscribe
+            <button class="btn pr-0" type="button" id="button-addon2">
+              SUBSCRIBE
             </button>
           </div>
         </div>
@@ -767,7 +753,9 @@
           </select>
         </div>
       </div>
-      <div class="row justify-content-center p-0 m-0 text-secondary border-top">
+      <div
+        class="row justify-content-center p-0 m-0 text-secondary footer_bar border-top"
+      >
         <div
           class="col-12 col-lg-8 d-md-flex px-lg-0 text-center text-md-right pt-3"
         >
