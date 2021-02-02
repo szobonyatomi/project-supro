@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  font-size: small; }
 
 body {
   font-size: small; }
@@ -9,6 +11,14 @@ body {
   #img-bg {
     order: 1; } }
 
+/*
+@media (min-width: 580px) and (max-width: 744px)  {
+    #txt-bg {
+     text-align: center;
+
+    }
+}
+*/
 @media (min-width: 1000px) {
   #txt-img {
     position: relative;
@@ -83,10 +93,6 @@ body {
   #icon_nav p {
     margin-top: -5px; }
 
-/* font */
-/* colors */
-/* card */
-/* button */
 html,
 body,
 div,
