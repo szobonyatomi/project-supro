@@ -25,67 +25,77 @@
 
 	<body>
     <header>
-      <div id="menubar" class="container-fluid border border-warning">
-        <nav class="navbar navbar-expand-lg border border-warning sticky-top navbar-light bg-transparent">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/logo_supro.svg" alt=""/>
+      <nav class="my-nav navbar navbar-light navbar-expand-lg sticky-top bg-transparent px-0 px-md-2">
+        <div class="container-fluid m-0 mx-md-3 px-0 justify-content-center">
+          <div class="row col-12 px-0 align-items-center">
+            <a class="navbar-brand col-1 px-sm-0 px-2" href="#">
+              <img src="../homepage/assets/logo_supro.svg" alt="" />
             </a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item px-2">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div class="col-4 collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav pr-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
                 </li>
-
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="../shop/shop.html">shop</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="../shop/shop.htmls">Shop</a>
                 </li>
-
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="../product/product.html">collection</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="../product/single-product.html"
+                    >Collection</a
+                  >
                 </li>
-
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#">pages</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pages</a>
                 </li>
-
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#">blog</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
                 </li>
-
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="../contact/contact.html">contact</a>
-                </li>
-              </ul>
-            </div>
-
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 9999px"/>
-            </form>
-
-            <div class="navbar navbar-expand">
-              <ul class="navbar-nav">
-                <li>
-                  <img src="./assets/user.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
-                </li>
-
-                <li>
-                  <img src="./assets/heart.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
-                </li>
-
-                <li>
-                  <img src="./assets/shopping-cart.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
+                <li class="nav-item">
+                  <a class="nav-link" href="../contact/contact.html">Contact</a>
                 </li>
               </ul>
             </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"> </span>
-            </button>
+            <div
+              class="col-4 col-lg-2 input-group bg-white ml-auto"
+              style="border-radius: 9000px"
+            >
+              <input class="form-control" placeholder="Searching..." aria-label="search" aria-describedby="button-addon2"/>
+              <button
+                class="fa fa-search form-control-feedback bg-white"
+                type="button"
+                id="button-addon2"
+              ></button>
+            </div>
+
+            <div class="col-4 col-lg-2 pr-0">
+              <ul
+                class="navbar nav_right my-0 py-0 pr-0 pr-sm-0 pr-md-2 pl-0 pl-md-2text-center"
+              >
+                <li>
+                  <a href=""><i class="far fa-user text-secondary"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="far fa-heart text-secondary"></i></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fas fa-shopping-cart text-secondary"></i
+                  ></a>
+                </li>
+                <li>
+                  <button class="navbar-toggler d-block px-0 text-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <main>
