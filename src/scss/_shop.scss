@@ -1,0 +1,202 @@
+
+footer {
+  margin-top: 12rem;
+}
+
+.grid-products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4/6;
+  -ms-grid-row: 2;
+  grid-row: 2; 
+
+  .products {
+    position: relative;
+    top: 35px;
+    color: #222;
+    font-size: .9rem; 
+  }
+  grid-row: 2;
+}
+.products {
+  position: relative;
+  top: 35px;
+  color: #222;
+  font-size: 0.9rem;
+}
+#color-row {
+  .col-sm-4 {
+    p {
+      font-size: small;
+    }
+  }
+
+  .products .product-content, .products .product-content1 {
+    font-size: .9rem;
+    color: #999; 
+  }
+  
+  .fa-chevron-down {
+    font-size: .6rem;
+    color: #999; 
+  }
+  
+  .text {
+    position: relative;
+    left: 25px;
+    word-spacing: 10px;
+    font-size: 0.9rem;
+  }
+
+  .text i {
+    position: relative;
+    left: 15px;
+  }
+  
+
+  .fa-th {
+    position: relative;
+    left: 80px;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  .fa-list-ul {
+    position: relative;
+    left: 100px;
+    font-size: 1.1rem;
+    color: #999;
+  }
+}
+
+.widget-title {
+  margin-bottom: 2rem;
+}
+
+.grid-shop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  padding-left: 1em;
+}
+
+p .shop-home {
+  font-size: 0.9rem;
+  color: #999;
+  word-spacing: 0.5em;
+}
+
+.fa-circle {
+  font-size: 0.3rem;
+  position: relative;
+  bottom: 1px;
+}
+
+.categories-menu {
+  li {
+    font-size: smaller;
+  }
+}
+
+.dotShop {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-blackShop {
+  @extend .dotShop;
+  background-color: black;
+}
+
+.dot-blueShop {
+  @extend .dotShop;
+  background-color: rgb(95, 95, 204);
+}
+
+.dot-goldShop {
+  @extend .dotShop;
+  background-color: rgb(209, 198, 40);
+}
+
+.dot-nudeShop {
+  @extend .dotShop;
+  background-color: rgb(175, 139, 84);
+}
+
+.dot-orangeShop {
+  @extend .dotShop;
+  background-color: rgb(212, 142, 13);
+}
+
+.dot-redShop {
+  @extend .dotShop;
+  background-color: rgb(156, 6, 6);
+}
+
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#product-items {
+  .col-sm-6 {
+    h6 {
+      font-size: larger;
+    }
+
+    small {
+      font-size: smaller;
+    }
+
+    p {
+      font-size: smaller;
+    }
+  }
+}
+
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#col-gauche {
+  order: 1;
+}
+
+#col-center {
+  order: 2;
+}
+
+
+input[type='checkbox'] {
+	outline: 1px solid #bdb4b4;
+	opacity: 0.2;
+}
+
+//Query
+
+
+@media (max-width: 1000px ) {
+  #col-gauche {
+    order: 2;
+    grid-row: 1;
+  }
+
+  #col-center {
+    order: 1;
+    grid-row: 2;
+  }
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './about';
+@import './variables';
+@import './reset';
+@import './component';
+@import './shop';
+@import './product';
+@import './contact';
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: $body-font;
+}

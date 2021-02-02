@@ -1,0 +1,31 @@
+{
+  "name": "project-supro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss --output src/css --source-map true"
+  },
+ 
+  
+  "repository": { 
+
+    "type": "git",
+    "url": "git+https://github.com/szobonyatomi/project-supro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szobonyatomi/project-supro/issues"
+  },
+  "homepage": "https://github.com/szobonyatomi/project-supro#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1"
+  }
+}
