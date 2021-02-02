@@ -51,6 +51,6 @@ And now, did I hooked you ?
 
 ## Status ? 
 
-Welln theorically it's finished. But as you can see, our performances can be improved so ... why not return on it for fun later ? If so and that you did'nt forgot about our existence, you will eventually see it in a further section named "Gitlog" ;) 
+Well theorically it's finished. But as you can see, our performances can be improved so ... why not return on it for fun later ? If so and that you did'nt forgot about our existence, you will eventually see it in a further section named "Gitlog" ;) 
 
 ![fashion](img/fashion.gif) 
