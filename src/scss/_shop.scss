@@ -16,8 +16,15 @@ footer {
     position: relative;
     top: 35px;
     color: #222;
-    font-size: .9rem;
+    font-size: .9rem; 
   }
+  grid-row: 2;
+}
+.products {
+  position: relative;
+  top: 35px;
+  color: #222;
+  font-size: 0.9rem;
 }
 #color-row {
   .col-sm-4 {
