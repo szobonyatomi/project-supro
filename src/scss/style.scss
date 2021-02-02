@@ -6,7 +6,11 @@
 @import './shop';
 @import './product';
 @import './contact';
+<<<<<<< HEAD
 @import '/Users/tomi/Codes/mycodes/project-supro/node_modules/bootstrap/scss/bootstrap.scss';
+=======
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+>>>>>>> 978d75f5e6da12e92863300d6ae99a69ee4fef24
 
 body {
   font-family: $body-font;
