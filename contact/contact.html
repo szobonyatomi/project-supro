@@ -1,293 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link type="text/CSS" rel="stylesheet" href="../src/css/style.css" id="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Contact us</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link type="text/CSS" rel="stylesheet" href="../src/css/style.css" id="" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
-  <title>Contact us</title>
-</head>
+  <body>
+    <nav
+      class="my-nav navbar navbar-light navbar-expand-lg bg-transparent border-bottom py-5 px-0 px-md-2"
+    >
+      <div class="container-fluid m-0 mx-md-3 px-0 justify-content-center">
+        <div class="row col-12 px-0 align-items-center">
+          <a class="navbar-brand col-1 px-sm-0 px-2" href="../index.html">
+            <img src="../homepage/assets/logo_supro.svg" alt="" />
+          </a>
 
-<body>
-  <nav class="my-nav navbar navbar-light navbar-expand-lg  bg-transparent border-bottom py-5 px-0 px-md-2">
-    <div class="container-fluid m-0 mx-md-3 px-0 justify-content-center">
-      <div class="row col-12 px-0 align-items-center">
-        <a class="navbar-brand col-1 px-sm-0 px-2" href="#">
-          <img src="../homepage/assets/logo_supro.svg" alt="" />
-        </a>
+          <div class="col-5 collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav pr-0">
+              <li class="col-2 nav-item active">
+                <a class="nav-link" href="../index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="col-2 nav-item">
+                <a class="nav-link" href="../shop/shop.html">Shop</a>
+              </li>
+              <li class="col-2 nav-item">
+                <a class="nav-link" href="../product/single-product.html"
+                  >Collection</a
+                >
+              </li>
+              <li class="col-2 nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="col-2 nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="col-2 nav-item">
+                <a class="nav-link" href="../contact/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="col-5  collapse navbar-collapse" id="navbarNav">
-          <ul class=" navbar-nav pr-0">
-            <li class="col-2 nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="../shop/shop.htmls">Shop</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="../product/single-product.html">Collection</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="#">Pages</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="col-2 nav-item">
-              <a class="nav-link" href="../contact/contact.html">Contact</a>
-            </li>
-          </ul>
+          <div
+            class="col-4 col-lg-2 input-group bg-white ml-auto"
+            style="border-radius: 9000px"
+          >
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Searching..."
+              aria-label="search"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="fa fa-search form-control-feedback bg-white"
+              type="button"
+              id="button-addon2"
+            ></button>
+          </div>
+
+          <div class="col-4 col-lg-1 pr-0">
+            <ul
+              class="navbar nav_right my-0 py-0 pr-0 pr-sm-0 pr-md-2 pl-0 pl-md-2 text-center"
+            >
+              <li>
+                <a href=""><i class="far fa-user text-secondary"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="far fa-heart text-secondary"></i></a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fas fa-shopping-cart text-secondary"></i
+                ></a>
+              </li>
+              <li>
+                <button
+                  class="navbar-toggler d-block px-0 text-secondary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div class="col-4 col-lg-2 input-group bg-white ml-auto" style="border-radius: 9000px">
-          <input type="text" class="form-control" placeholder="Searching..." aria-label="search"
-            aria-describedby="button-addon2" />
-          <button class="fa fa-search form-control-feedback bg-white" type="button" id="button-addon2"></button>
+      </div>
+    </nav>
+    <section class="container-fluid col-12">
+      <div class="row">
+        <div class="card col-12">
+          <img class="card-img" src="Images/contact-bg-1.jpg" alt="img-bg" />
+          <div class="card-img-overlay col-6 col-md-8" id="card">
+            <h2 class="card-title">Contact</h2>
+            <a href="../homepage/index.html" class="card-text text-muted"
+              >Home</a
+            >
+            <img class="card-text" src="Images/cercle-noir.png" alt="img" />
+            <a href="../contact/contact.html" class="card-text pl-1">Contact</a>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="col-4 col-lg-1 pr-0">
-          <ul class="navbar nav_right my-0 py-0 pr-0 pr-sm-0 pr-md-2 pl-0 pl-md-2 text-center">
-            <li>
-              <a href=""><i class="far fa-user text-secondary"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="far fa-heart text-secondary"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fas fa-shopping-cart text-secondary"></i></a>
-            </li>
-            <li>
-              <button class="navbar-toggler d-block px-0 text-secondary" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <section class="container-fluid col-lg-8 col-md-12">
+      <div class="row">
+        <form class="col-lg-8 col-md-12">
+          <div class="form-group col-12 nav py-3">
+            <div class="col-md-6 col-12 py-3">
+              <label for="name-form"
+                >Name<span class="obligatoire">*</span></label
+              >
+              <input
+                type="name"
+                class="form-control"
+                id="name-form"
+                aria-describedby="nameHelp"
+                placeholder="Enter name"
+                required
+              />
+            </div>
+            <div class="col-md-6 col-12 py-3">
+              <label for="email-form"
+                >Email<span class="obligatoire">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email-form"
+                aria-describedby="emailHelp"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group col-12 py-3">
+              <label for="message-form"
+                >Message<span class="obligatoire">*</span></label
+              >
+              <textarea
+                class="form-control"
+                id="message-form"
+                rows="6"
+              ></textarea>
+              <button
+                type="submit"
+                class="col-3 btn btn-primary py-3 px-5 my-4"
+                id="btn"
+              >
+                Submit
               </button>
-            </li>
+            </div>
+          </div>
+        </form>
+
+        <div class="col-lg-4 col-md-12 py-3">
+          <div class="nav col-12 py-3">
+            <div class="border rounded-circle py-2 px-2 mr-2">
+              <img src="Images/facebook.png" alt="icon" />
+            </div>
+            <div class="border rounded-circle py-2 px-2 mx-2">
+              <img src="Images/twitter.png" alt="icon" />
+            </div>
+            <div class="border rounded-circle py-2 px-2 mx-2">
+              <img src="Images/google-plus.png" alt="icon" />
+            </div>
+            <div class="border rounded-circle py-2 px-2 mx-2">
+              <img src="Images/linkedin.png" alt="icon" />
+            </div>
+            <div class="border rounded-circle py-2 px-2 mx-2">
+              <img src="Images/instagram.png" alt="icon" />
+            </div>
+          </div>
+          <div class="col-9 my-5">
+            <div>
+              <h4>Our Office</h4>
+              <p class="text-muted mt-4">
+                15 St Maragarets Lane New York, NY 10033
+              </p>
+            </div>
+            <div class="my-5">
+              <h4 class="">Get in Touch</h4>
+              <h6 class="mt-4">PHONE NUMBER</h6>
+              <p class="text-muted">631-679-6357</p>
+              <h6 class="mt-4">EMAIL</h6>
+              <p class="text-muted">supro@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid col-lg-8 col-md-12 my-5">
+      <div class="row">
+        <div class="nav col-12 my-5">
+          <div class="col-lg-3 col-md-12 pb-3">
+            <h4 class="">Store in London</h4>
+          </div>
+          <div class="col-lg-3 col-md-4 ml-n4 pb-3">
+            <h6 class="pl-4">LOCATION</h6>
+            <p class="text-muted pl-4">16 lolaire Road, new Abbey, DG2 2SX</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-5 ml-n4">
+            <h6 class="pl-4">PHONE NUMBER</h6>
+            <p class="text-muted pl-4">077 6941 6241</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5">
+            <h6 class="">EMAIL</h6>
+            <p class="text-muted">suprolondon@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="nav col-12 my-5">
+          <div class="col-lg-3 col-md-12 pb-3">
+            <h4 class="mb-3">Store in Sydney</h4>
+          </div>
+          <div class="col-lg-3 col-md-4 ml-n4 pb-3">
+            <h6 class="pl-4">LOCATION</h6>
+            <p class="text-muted pl-4">16 lolaire Road, new Abbey, DG2 2SX</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-5 ml-n4">
+            <h6 class="pl-4">PHONE NUMBER</h6>
+            <p class="text-muted pl-4">077 6941 6241</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5">
+            <h6 class="">EMAIL</h6>
+            <p class="text-muted">suprosydney@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="nav col-12 my-5">
+          <div class="col-lg-3 col-md-12 pb-3">
+            <h4 class="mb-3">Store in Hamburg</h4>
+          </div>
+          <div class="col-lg-3 col-md-4 ml-n4 pb-3">
+            <h6 class="pl-4">LOCATION</h6>
+            <p class="text-muted pl-4">16 lolaire Road, new Abbey, DG2 2SX</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-5 ml-n4">
+            <h6 class="pl-4">PHONE NUMBER</h6>
+            <p class="text-muted pl-4">077 6941 6241</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5">
+            <h6 class="">EMAIL</h6>
+            <p class="text-muted">suprohamburg@example.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid col-12">
+      <div class="row">
+        <div class="col-12">
+          <img src="Images/map.png" alt="carte" class="col-12" />
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+    <div class="container-fluid py-5 px-0" id="footer">
+      <div
+        class="nav col-12 col-lg-8 justify-content-around justify-content-md-between mx-0 mb-5 mx-lg-auto px-lg-0 px-0 px-md-3 text-center text-md-left"
+      >
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-1">HELP & INFORMATION</h6>
+          <ul>
+            <li><a href="#" class="text-secondary">Track Order</a></li>
+            <li><a href="#" class="text-secondary">Delivery & Returns</a></li>
+            <li><a href="#" class="text-secondary">Premier Delivery</a></li>
+            <li><a href="#" class="text-secondary">FAQs</a></li>
           </ul>
         </div>
-      </div>
-    </div>
-  </nav>
-  <section class="container-fluid col-12">
-    <div class="row">
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">ABOUT SUPRO</h6>
+          <ul>
+            <li>
+              <a href="../about/about.html" class="text-secondary">About us</a>
+            </li>
+            <li><a href="#" class="text-secondary">Carrers</a></li>
+            <li><a href="#" class="text-secondary">Coporate</a></li>
+            <li><a href="#" class="text-secondary">Investors</a></li>
+          </ul>
+        </div>
 
-      <div class="card col-12">
-        <img class="card-img" src="Images/contact-bg-1.jpg" alt="img-bg">
-        <div class="card-img-overlay col-6 col-md-8 " id="card">
-          <h2 class="card-title">Contact</h2>
-          <a href="../homepage/index.html" class="card-text text-muted">Home</a>
-          <img class="card-text " src="Images/cercle-noir.png" alt="img">
-          <a href="../contact/contact.html" class=" card-text  pl-1">Contact</a>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">ONLINE SHOP</h6>
+          <ul>
+            <li><a href="#" class="text-secondary">Shoes</a></li>
+            <li><a href="#" class="text-secondary">Bags</a></li>
+            <li><a href="#" class="text-secondary">Wallets</a></li>
+            <li><a href="#" class="text-secondary">Belts</a></li>
+          </ul>
+        </div>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">LANGUAGE</h6>
+          <select
+            class="form-select text-secondary"
+            aria-label="Default select example"
+          >
+            <option selected value="1">English</option>
+            <option value="2">Francais</option>
+            <option value="3">Dutch</option>
+          </select>
+        </div>
+        <div class="col-4 col-md-2 px-0">
+          <h6 class="mb-4">CURRENCY</h6>
+          <select
+            class="form-select text-secondary"
+            aria-label="Default select example"
+          >
+            <option selected value="1">USD</option>
+            <option value="2">EUR</option>
+            <option value="3">GBP</option>
+          </select>
         </div>
       </div>
-
-
-    </div>
-  </section>
-
-  <section class="container-fluid col-lg-8 col-md-12 ">
-    <div class="row">
-      <form class="col-lg-8 col-md-12">
-        <div class="form-group col-12 nav py-3 ">
-          <div class="col-md-6 col-12  py-3">
-            <label for="name-form">Name<span class="obligatoire">*</span></label>
-            <input type="name" class="form-control" id="name-form" aria-describedby="nameHelp" placeholder="Enter name"
-              required>
+      <div
+        class="row justify-content-center p-0 m-0 text-secondary footer_bar border-top"
+      >
+        <div
+          class="col-12 col-lg-8 d-md-flex px-lg-0 text-center text-md-right pt-3"
+        >
+          <div class="col-12 col-md-8 px-0 m-0 text-md-left mb-3">
+            <i class="far fa-copyright"></i>
+            <span><b>Supro</b></span> All rightsd reseved 2019
           </div>
-          <div class="col-md-6 col-12 py-3">
-            <label for="email-form">Email<span class="obligatoire">*</span></label>
-            <input type="email" class="form-control" id="email-form" aria-describedby="emailHelp"
-              placeholder="name@example.com" required>
+          <div class="col-12 col-md-2 p-0 m-0">
+            <p>Privacy Policy</p>
           </div>
-          <div class="form-group col-12 py-3">
-            <label for="message-form">Message<span class="obligatoire">*</span></label>
-            <textarea class="form-control" id="message-form" rows="6"></textarea>
-            <button type="submit" class=" col-3 btn btn-primary py-3 px-5 my-4" id="btn">Submit</button>
-          </div>
-        </div>
-      </form>
-
-      <div class="col-lg-4 col-md-12 py-3 ">
-        <div class="nav col-12  py-3">
-          <div class="border rounded-circle py-2 px-2 mr-2">
-            <img src="Images/facebook.png" alt="icon">
-          </div>
-          <div class="border rounded-circle py-2 px-2 mx-2">
-            <img src="Images/twitter.png" alt="icon">
-          </div>
-          <div class="border rounded-circle py-2 px-2 mx-2">
-            <img src="Images/google-plus.png" alt="icon">
-          </div>
-          <div class="border rounded-circle py-2 px-2 mx-2">
-            <img src="Images/linkedin.png" alt="icon">
-          </div>
-          <div class="border rounded-circle py-2 px-2 mx-2">
-            <img src="Images/instagram.png" alt="icon">
-          </div>
-        </div>
-        <div class="col-9 my-5 ">
-          <div>
-            <h4>Our Office</h4>
-            <p class="text-muted mt-4">15 St Maragarets Lane New York, NY 10033</p>
-          </div>
-          <div class="my-5">
-            <h4 class="">Get in Touch</h4>
-            <h6 class="mt-4">PHONE NUMBER</h6>
-            <p class="text-muted">631-679-6357</p>
-            <h6 class="mt-4">EMAIL</h6>
-            <p class="text-muted ">supro@example.com</p>
+          <div class="col-12 col-md-2 p-0 m-0">
+            <p>Terms of use</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="container-fluid col-lg-8 col-md-12 my-5">
-    <div class="row">
-      <div class=" nav col-12 my-5 ">
-        <div class=" col-lg-3 col-md-12 pb-3 ">
-          <h4 class="">Store in London </h4>
-        </div>
-        <div class="col-lg-3 col-md-4 ml-n4  pb-3 ">
-          <h6 class="pl-4">LOCATION</h6>
-          <p class="text-muted pl-4 ">16 lolaire Road, new Abbey, DG2 2SX</p>
-        </div>
-        <div class="col-lg-2 col-md-3 col-5  ml-n4 ">
-          <h6 class="pl-4">PHONE NUMBER</h6>
-          <p class="text-muted pl-4">077 6941 6241</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5">
-          <h6 class="">EMAIL</h6>
-          <p class="text-muted ">suprolondon@example.com</p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class=" nav col-12  my-5 ">
-        <div class=" col-lg-3 col-md-12 pb-3">
-          <h4 class="mb-3">Store in Sydney </h4>
-        </div>
-        <div class="col-lg-3 col-md-4 ml-n4 pb-3 ">
-          <h6 class="pl-4">LOCATION</h6>
-          <p class="text-muted pl-4">16 lolaire Road, new Abbey, DG2 2SX</p>
-        </div>
-        <div class="col-lg-2 col-md-3 col-5 ml-n4">
-          <h6 class="pl-4">PHONE NUMBER</h6>
-          <p class="text-muted pl-4">077 6941 6241</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5">
-          <h6 class="">EMAIL</h6>
-          <p class="text-muted ">suprosydney@example.com</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class=" nav col-12  my-5 ">
-        <div class=" col-lg-3 col-md-12 pb-3 ">
-          <h4 class="mb-3">Store in Hamburg </h4>
-        </div>
-        <div class="col-lg-3 col-md-4 ml-n4 pb-3">
-          <h6 class="pl-4">LOCATION</h6>
-          <p class="text-muted pl-4">16 lolaire Road, new Abbey, DG2 2SX</p>
-        </div>
-        <div class="col-lg-2 col-md-3 col-5 ml-n4">
-          <h6 class="pl-4">PHONE NUMBER</h6>
-          <p class="text-muted pl-4">077 6941 6241</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 ml-5 pl-5 ">
-          <h6 class="">EMAIL</h6>
-          <p class="text-muted ">suprohamburg@example.com</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-fluid col-12">
-    <div class="row">
-      <div class=" col-12 ">
-        <img src="Images/map.png" alt="carte" class="col-12">
-      </div>
-    </div>
-  </section>
-  <footer>
-
-  </footer>
-  <div class="container-fluid py-5 px-0" id="footer">
-    <div
-      class="nav col-12 col-lg-8 justify-content-around justify-content-md-between mx-0 mb-5 mx-lg-auto px-lg-0 px-0 px-md-3 text-center text-md-left">
-      <div class="col-4 col-md-2 px-0">
-        <h6 class="mb-1">HELP & INFORMATION</h6>
-        <ul>
-          <li><a href="#" class="text-secondary">Track Order</a></li>
-          <li><a href="#" class="text-secondary">Delivery & Returns</a></li>
-          <li><a href="#" class="text-secondary">Premier Delivery</a></li>
-          <li><a href="#" class="text-secondary">FAQs</a></li>
-        </ul>
-      </div>
-      <div class="col-4 col-md-2 px-0">
-        <h6 class="mb-4">ABOUT SUPRO</h6>
-        <ul>
-          <li>
-            <a href="../about/about.html" class="text-secondary">About us</a>
-          </li>
-          <li><a href="#" class="text-secondary">Carrers</a></li>
-          <li><a href="#" class="text-secondary">Coporate</a></li>
-          <li><a href="#" class="text-secondary">Investors</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 col-md-2 px-0">
-        <h6 class="mb-4">ONLINE SHOP</h6>
-        <ul>
-          <li><a href="#" class="text-secondary">Shoes</a></li>
-          <li><a href="#" class="text-secondary">Bags</a></li>
-          <li><a href="#" class="text-secondary">Wallets</a></li>
-          <li><a href="#" class="text-secondary">Belts</a></li>
-        </ul>
-      </div>
-      <div class="col-4 col-md-2 px-0">
-        <h6 class="mb-4">LANGUAGE</h6>
-        <select class="form-select text-secondary" aria-label="Default select example">
-          <option selected value="1">English</option>
-          <option value="2">Francais</option>
-          <option value="3">Dutch</option>
-        </select>
-      </div>
-      <div class="col-4 col-md-2 px-0">
-        <h6 class="mb-4">CURRENCY</h6>
-        <select class="form-select text-secondary" aria-label="Default select example">
-          <option selected value="1">USD</option>
-          <option value="2">EUR</option>
-          <option value="3">GBP</option>
-        </select>
-      </div>
-    </div>
-    <div class="row justify-content-center p-0 m-0 text-secondary footer_bar border-top">
-      <div class="col-12 col-lg-8 d-md-flex px-lg-0 text-center text-md-right pt-3">
-        <div class="col-12 col-md-8 px-0 m-0 text-md-left mb-3">
-          <i class="far fa-copyright"></i>
-          <span><b>Supro</b></span> All rightsd reseved 2019
-        </div>
-        <div class="col-12 col-md-2 p-0 m-0">
-          <p>Privacy Policy</p>
-        </div>
-        <div class="col-12 col-md-2 p-0 m-0">
-          <p>Terms of use</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-</body>
-
+  </body>
 </html>
