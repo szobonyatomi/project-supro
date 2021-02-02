@@ -12,31 +12,90 @@
     />
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
     <title>Supro - Shop</title>
     
-    
 	</head>
 
 	<body>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    
     <header>
+      <div id="menubar" class="container-fluid border border-warning">
+        <nav class="navbar navbar-expand-lg border border-warning sticky-top navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/logo_supro.svg" alt=""/>
+            </a>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item px-2">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="../shop/shop.html">shop</a>
+                </li>
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="../product/product.html">collection</a>
+                </li>
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">pages</a>
+                </li>
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">blog</a>
+                </li>
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="../contact/contact.html">contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 9999px"/>
+            </form>
+
+            <div class="navbar navbar-expand">
+              <ul class="navbar-nav">
+                <li>
+                  <img src="./assets/user.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
+                </li>
+
+                <li>
+                  <img src="./assets/heart.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
+                </li>
+
+                <li>
+                  <img src="./assets/shopping-cart.svg" alt="" style="width: 1.2rem; margin: 0 0.5rem"/>
+                </li>
+              </ul>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"> </span>
+            </button>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="shop grid area section-padding-80">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
+
+            <!-- COLONNE GAUCHE-->
+
+            <div class="col-12 col-md-12 col-lg-3" id="col-gauche">
               <div class="shop sidebar area">
                 <div class="widget current mb-50">
                   <h3 class="widget-title mb-30">Active filters</h3>
@@ -73,7 +132,8 @@
 
                   <div class="widget-desc">
                     <div class="slider-range">
-                      
+                      <input type="checkbox" disabled><input type="range" min="1" max="100" value="50" class="slider" class="text-warning"><input
+					type="checkbox" disabled>
 
                       <div class="range-price">Price: $0 - $100</div>
                     </div>
@@ -83,7 +143,7 @@
                 <div class="container">
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-black"></span>
+                      <span class="dot-blackShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -97,7 +157,7 @@
 
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-blue"></span>
+                      <span class="dot-blueShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -111,7 +171,7 @@
 
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-gold"></span>
+                      <span class="dot-goldShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -125,7 +185,7 @@
 
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-nude"></span>
+                      <span class="dot-nudeShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -139,7 +199,7 @@
 
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-orange"></span>
+                      <span class="dot-orangeShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -153,7 +213,7 @@
 
                   <div class="row" id="color-row">
                     <div class="col-sm-2">
-                      <span class="dot-red"></span>
+                      <span class="dot-redShop"></span>
                     </div>
 
                     <div class="col-sm-4">
@@ -220,10 +280,10 @@
 
             <!-- Colonne Centrale-->
 
-            <div class="col-12 col-md-8 col-lg-9">
+            <div class="col-12 col-md-12 col-lg-9" id="col-center">
               <div class="shop grid product area">
                 <div class="row">
-                  <div class="col-12" id="content-product">
+                  <div class="col-12 col-md-12" id="content-product">
                     <div class="row" id="shop-head">
                       <div class="col-4">
                         <div class="grid-shop">
@@ -251,7 +311,7 @@
                 <!-- ARTICLE 1-->
 
                 <div class="row">
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/1.jpg">
 
@@ -267,7 +327,7 @@
 
                   <!-- ARTICLE 2-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/2.jpeg">
 
@@ -283,7 +343,7 @@
 
                   <!-- ARTICLE 3-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/3.jpeg">
 
@@ -299,7 +359,7 @@
 
                   <!-- ARTICLE 4-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/4.jpeg">
 
@@ -315,7 +375,7 @@
 
                   <!-- ARTICLE 5-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/5.jpeg">
 
@@ -331,7 +391,7 @@
 
                   <!-- ARTICLE 6-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/6.jpeg">
 
@@ -347,7 +407,7 @@
 
                   <!-- ARTICLE 7-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/7.jpeg">
 
@@ -363,7 +423,7 @@
 
                   <!-- ARTICLE 8-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/8.jpeg">
 
@@ -379,7 +439,7 @@
 
                   <!-- ARTICLE 9-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/9.jpeg">
 
@@ -395,7 +455,7 @@
 
                   <!-- ARTICLE 10-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/10.jpeg">
 
@@ -411,7 +471,7 @@
 
                   <!-- ARTICLE 11-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/11.jpeg">
 
@@ -427,7 +487,7 @@
 
                   <!-- ARTICLE 12-->
 
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-6 col-lg-4 col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="assets/12.jpeg">
 
@@ -455,7 +515,78 @@
     </main>
 
     <footer>
-
+      <div class="container-fluid px-0" id="footer">
+        <div class="nav col-12 col-lg-8 justify-content-around justify-content-md-between mx-0 mb-5 mx-lg-auto px-lg-0 px-0 px-md-3 text-center text-md-left">
+          <div class="col-4 col-md-2 px-0">
+            <h6 class="mb-1">HELP & INFORMATION</h6>
+            <ul>
+              <li><a href="#" class="text-secondary">Track Order</a></li>
+              <li><a href="#" class="text-secondary">Delivery & Returns</a></li>
+              <li><a href="#" class="text-secondary">Premier Delivery</a></li>
+              <li><a href="#" class="text-secondary">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2 px-0">
+            <h6 class="mb-4">ABOUT SUPRO</h6>
+            <ul>
+              <li>
+                <a href="../about/about.html" class="text-secondary">About us</a>
+              </li>
+              <li><a href="#" class="text-secondary">Carrers</a></li>
+              <li><a href="#" class="text-secondary">Coporate</a></li>
+              <li><a href="#" class="text-secondary">Investors</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-4 col-md-2 px-0">
+            <h6 class="mb-4">ONLINE SHOP</h6>
+            <ul>
+              <li><a href="#" class="text-secondary">Shoes</a></li>
+              <li><a href="#" class="text-secondary">Bags</a></li>
+              <li><a href="#" class="text-secondary">Wallets</a></li>
+              <li><a href="#" class="text-secondary">Belts</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2 px-0">
+            <h6 class="mb-4">LANGUAGE</h6>
+            <select
+              class="form-select text-secondary"
+              aria-label="Default select example"
+            >
+              <option selected value="1">English</option>
+              <option value="2">Francais</option>
+              <option value="3">Dutch</option>
+            </select>
+          </div>
+          <div class="col-4 col-md-2 px-0">
+            <h6 class="mb-4">CURRENCY</h6>
+            <select
+              class="form-select text-secondary"
+              aria-label="Default select example"
+            >
+              <option selected value="1">USD</option>
+              <option value="2">EUR</option>
+              <option value="3">GBP</option>
+            </select>
+          </div>
+        </div>
+        <div class="row justify-content-center p-0 m-0 text-secondary border-top">
+          <div
+            class="col-12 col-lg-8 d-md-flex px-lg-0 text-center text-md-right pt-3"
+          >
+            <div class="col-12 col-md-8 px-0 m-0 text-md-left mb-3">
+              <i class="far fa-copyright"></i>
+              <span><b>Supro</b></span> All rightsd reseved 2019
+            </div>
+            <div class="col-12 col-md-2 p-0 m-0">
+              <p>Privacy Policy</p>
+            </div>
+            <div class="col-12 col-md-2 p-0 m-0">
+              <p>Terms of use</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 	</body>
 </html>
