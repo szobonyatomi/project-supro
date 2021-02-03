@@ -4104,7 +4104,7 @@ input[type="button"].btn-block {
     float: left;
     padding-right: 0.5rem;
     color: #6c757d;
-    content: url(/product/img/divider.svg); }
+    content: url(./product/img/divider.svg); }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
